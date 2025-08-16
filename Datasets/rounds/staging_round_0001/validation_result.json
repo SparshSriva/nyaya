@@ -1,0 +1,15 @@
+{
+  "round": "staging_round_0001",
+  "file": "nyaya\\Datasets\\rounds\\staging_round_0001\\nyaya_corpus_staging_round_0001_clean.jsonl",
+  "total": 41,
+  "schema_ok": true,
+  "missing_details": [],
+  "non_western_share": 0.878,
+  "specificity_share": 1.0,
+  "avg_chars_across_steps": 644.7,
+  "thresholds": {
+    "non_western_share": 0.25,
+    "specificity_share": 0.9
+  },
+  "passes": true
+}
