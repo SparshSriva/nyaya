@@ -1,0 +1,13 @@
+[
+  {
+    "domain": "Nyaya / Inference",
+    "pratijna": "Claim here",
+    "hetu": "Reason here",
+    "udaharana": "For example, ...",
+    "upanaya": "This case is like the example because ...",
+    "nigamana": "Therefore, ...",
+    "grounding_authority": "Field / Specific Source, https://example.org (accessed 2025-08-15)",
+    "cultural_tradition": "Non-Western",
+    "notes": "Optional notes, tags, keywords"
+  }
+]

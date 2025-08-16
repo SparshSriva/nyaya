@@ -1,0 +1,21 @@
+URL: https://plato.stanford.edu/entries/speech-acts/
+Provider: sep
+Title: Speech Acts — Stanford Encyclopedia of Philosophy
+Accessed: 2025-08-15 (UTC)
+
+Summary (research notes)
+- Core distinction: propositional content (what is said) vs illocutionary force (what is done in saying it).
+- Felicity conditions: social/linguistic preconditions for successful performance (authority, procedure, sincerity, uptake).
+- Direction of fit: mind-to-world (asserting, describing) vs world-to-mind (promising, commanding) vs double-fit acts.
+- Indirect speech acts: one utterance carries multiple forces; inferred via shared conventions and context.
+- Force indicators and scorekeeping: conventional devices (mood, performatives) + pragmatic score updates track commitments.
+- Logical systems model act-types, inferential relations, and commitment dynamics.
+
+Key points (bullets)
+- Performative vs constative is not a strict dichotomy; many utterances do both.
+- Searle & Vanderveken analyze force into components (illocutionary point, mode of achievement, strength, etc.).
+- Conditions of satisfaction and direction of fit explain success/failure of different act kinds.
+- Social dimensions: illocutionary silencing and authority relations affect uptake and success.
+
+Citations to use
+- "Philosophy of Language / SEP: Speech Acts (rev.)," URL above.

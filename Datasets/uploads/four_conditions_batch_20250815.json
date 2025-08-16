@@ -1,0 +1,47 @@
+[
+  {
+    "domain": "Sociological Theory / The Four Conditions Model",
+    "pratijna": "The durability of a society's knowledge system is determined by its adherence to four fundamental preconditions.",
+    "hetu": "Because societies that integrate all four preconditions (Shared Humanity, Ancestry, Posterity, Variability) develop adaptive, resilient worldviews, while those that neglect one or more develop fragile, rigid ones.",
+    "udaharana": "Any system, whether social or ecological, that balances respect for its past, responsibility for its future, connection with its members, and adaptation to change is more durable than one that fails in these aspects, just as a healthy forest ecosystem thrives through biodiversity, nutrient cycling, and generational succession.",
+    "upanaya": "The Four Conditions theory posits that a Type D society is such a system, satisfying all four conditions and thereby fostering a durable knowledge system.",
+    "nigamana": "Therefore, the durability of a society's knowledge system is determined by its adherence to the four fundamental preconditions.",
+    "grounding_authority": "The Four Conditions Model / Comparative Sociology"
+  },
+  {
+    "domain": "Political Science / The Four Conditions Model",
+    "pratijna": "A society transitions from a flexible 'Genesis' state to a rigid 'Inheritance' state upon developing institutions that transmit a fixed worldview across generations.",
+    "hetu": "Because formalized institutions of power, codified ideologies, and a specialist class create a self-perpetuating system that resists change.",
+    "udaharana": "Any system that codifies its operating principles into fixed structures and empowers a class to maintain them becomes more rigid, as seen when an innovative startup ('Genesis') grows into a large corporation ('Inheritance') with established hierarchies, policies, and management.",
+    "upanaya": "The model describes this transition as occurring through the establishment of state bureaucracies, sacred texts, and a priestly/scribal class, which lock in a specific set of answers to the four conditions.",
+    "nigamana": "Therefore, a society transitions to an 'Inheritance' state upon developing institutions that transmit a fixed worldview.",
+    "grounding_authority": "The Four Conditions Model / Political Theory"
+  },
+  {
+    "domain": "Contemplative Science / The Four Conditions Model",
+    "pratijna": "Contemplative practices are a technology for consciously altering an individual's internal answers to the four preconditions.",
+    "hetu": "Because the core techniques of meditation directly address and modify the cognitive states associated with each condition.",
+    "udaharana": "Any systematic practice that alters fundamental cognitive patterns can be considered a technology for reprogramming one's worldview, just as cognitive behavioral therapy is a technology for reframing maladaptive thought patterns.",
+    "upanaya": "The model shows this correspondence: mindfulness suspends past/future focus (C1/C2), loving-kindness cultivates shared humanity (C0), and contemplation of impermanence fosters acceptance of variability (C3).",
+    "nigamana": "Therefore, contemplative practices are a technology for consciously altering an individual's internal answers to the four preconditions.",
+    "grounding_authority": "The Four Conditions Model / Cognitive Science"
+  },
+  {
+    "domain": "Epistemology / The Four Conditions Model",
+    "pratijna": "A group's worldview, shaped by its answers to the four conditions, determines the 'Truth' it derives from objective 'Facts'.",
+    "hetu": "Because the interpretation and meaning assigned to an objective fact are contingent upon the foundational assumptions of the observer's belief system.",
+    "udaharana": "Any interpretive framework determines the meaning derived from data, just as the same set of fossil observations (Facts) can be interpreted to support different evolutionary narratives (Truths) depending on the theoretical framework (e.g., gradualism vs. punctuated equilibrium).",
+    "upanaya": "The Four Conditions model is such a framework, where a society's answers to the preconditions create the lens through which it interprets the meaning of events and data.",
+    "nigamana": "Therefore, a group's worldview determines the 'Truth' it derives from objective 'Facts'.",
+    "grounding_authority": "The Four Conditions Model / Philosophy of Science"
+  },
+  {
+    "domain": "Historiography / The Four Conditions Model",
+    "pratijna": "A 'Regenesis' society develops differently from a 'Genesis' society because it is influenced by a mythologized memory of a prior civilization.",
+    "hetu": "Because this cultural memory acts as a powerful attractor, shaping the society's development as it attempts to reclaim a perceived 'Golden Age'.",
+    "udaharana": "Any system re-forming in the shadow of a predecessor will be shaped by that legacy, just as post-Roman European kingdoms ('Regenesis') were fundamentally shaped by the legal, architectural, and political 'memory' of the Roman Empire, a factor absent for societies without such a predecessor ('Genesis').",
+    "upanaya": "The model posits that the 'memory of civilization' pre-loads the answer to Condition 1 (Ancestry), fundamentally altering the society's developmental trajectory compared to a society forming from a blank slate.",
+    "nigamana": "Therefore, a 'Regenesis' society develops differently from a 'Genesis' society due to the influence of cultural memory.",
+    "grounding_authority": "The Four Conditions Model / Theory of History"
+  }
+]

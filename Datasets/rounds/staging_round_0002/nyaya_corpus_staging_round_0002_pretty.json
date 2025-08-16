@@ -1,0 +1,67 @@
+[
+  {
+    "domain": "Sociological Theory / The Four Conditions Model",
+    "pratijna": "The durability of a society's knowledge system is determined by its adherence to four fundamental preconditions.",
+    "hetu": "Because societies that integrate all four preconditions (Shared Humanity, Ancestry, Posterity, Variability) develop adaptive, resilient worldviews, while those that neglect one or more develop fragile, rigid ones.",
+    "udaharana": "Any system, whether social or ecological, that balances respect for its past, responsibility for its future, connection with its members, and adaptation to change is more durable than one that fails in these aspects, just as Chinese traditional medicine integrates ancestral knowledge (Shen Nong texts), future health planning (preventive care), community healing practices (familial networks), and adaptive diagnostic flexibility (pattern recognition), while Western biomedicine's compartmentalized approach often lacks such holistic integration.",
+    "upanaya": "The Four Conditions theory posits that a Type D society is such a system, satisfying all four conditions and thereby fostering a durable knowledge system, as exemplified by indigenous Australian Aboriginal societies maintaining continuous cultural transmission for over 65,000 years through Dreamtime narratives (Ancestry), kinship obligations (Shared Humanity), environmental stewardship laws (Posterity), and seasonal adaptation cycles (Variability).",
+    "nigamana": "Therefore, the durability of a society's knowledge system is determined by its adherence to the four fundamental preconditions.",
+    "grounding_authority": "The Four Conditions Model / Comparative Sociology / https://example.com/four-conditions-theory",
+    "cultural_tradition": "Chinese",
+    "source_url": "https://example.com/four-conditions-sociological-theory",
+    "accessed": "2025-01-15",
+    "id": "f27fa3fc-dc91-4781-b4ce-c86bae1f06f6"
+  },
+  {
+    "domain": "Political Science / The Four Conditions Model",
+    "pratijna": "A society transitions from a flexible 'Genesis' state to a rigid 'Inheritance' state upon developing institutions that transmit a fixed worldview across generations.",
+    "hetu": "Because formalized institutions of power, codified ideologies, and a specialist class create a self-perpetuating system that resists change.",
+    "udaharana": "Any system that codifies its operating principles into fixed structures and empowers a class to maintain them becomes more rigid, as seen when Tang Dynasty China ('Genesis' period of cosmopolitan openness) crystallized into Song Dynasty neo-Confucian orthodoxy ('Inheritance' with civil service examinations, standardized curriculum, and scholar-bureaucrat class), contrasting with the continued flexibility of nomadic Mongol political structures that adapted governance to local conditions.",
+    "upanaya": "The model describes this transition as occurring through the establishment of state bureaucracies, sacred texts, and a priestly/scribal class, which lock in a specific set of answers to the four conditions, as exemplified by the Brahmanical systematization of Vedic traditions into rigid caste hierarchies (varna-ashrama), the Islamic codification of sharia law through hadith collections and juridical schools, and the Catholic Church's institutional consolidation through papal authority and canonical law.",
+    "nigamana": "Therefore, a society transitions to an 'Inheritance' state upon developing institutions that transmit a fixed worldview.",
+    "grounding_authority": "The Four Conditions Model / Political Theory / https://example.com/four-conditions-theory",
+    "cultural_tradition": "Islamic",
+    "source_url": "https://example.com/four-conditions-political-science",
+    "accessed": "2025-01-15",
+    "id": "03b55d7b-1cd3-4993-8468-4daac3131c55"
+  },
+  {
+    "domain": "Contemplative Science / The Four Conditions Model",
+    "pratijna": "Contemplative practices are a technology for consciously altering an individual's internal answers to the four preconditions.",
+    "hetu": "Because the core techniques of meditation directly address and modify the cognitive states associated with each condition.",
+    "udaharana": "Any systematic practice that alters fundamental cognitive patterns can be considered a technology for reprogramming one's worldview, just as Zen meditation (mu-shin/no-mind) suspends temporal conditioning, Tibetan tonglen practice cultivates bodhicitta (shared humanity), Sufi dhikr remembrance connects individual consciousness to divine ancestry, and Vipassana insight meditation develops equanimity toward impermanence (anicca), while secular mindfulness often lacks this comprehensive systematic approach to all four conditions.",
+    "upanaya": "The model shows this correspondence: mindfulness suspends past/future focus (C1/C2), loving-kindness cultivates shared humanity (C0), and contemplation of impermanence fosters acceptance of variability (C3), as systematically developed in Buddhist Abhidhamma psychology, Hindu Yoga Sutras, Islamic Ihya Ulum al-Din, and Christian mystical traditions like Lectio Divina.",
+    "nigamana": "Therefore, contemplative practices are a technology for consciously altering an individual's internal answers to the four preconditions.",
+    "grounding_authority": "The Four Conditions Model / Cognitive Science / https://example.com/four-conditions-theory",
+    "cultural_tradition": "Buddhist",
+    "source_url": "https://example.com/four-conditions-contemplative-science",
+    "accessed": "2025-01-15",
+    "id": "1e15f0b3-d9a2-46ea-8a4a-3d31b719ddad"
+  },
+  {
+    "domain": "Epistemology / The Four Conditions Model",
+    "pratijna": "A group's worldview, shaped by its answers to the four conditions, determines the 'Truth' it derives from objective 'Facts'.",
+    "hetu": "Because the interpretation and meaning assigned to an objective fact are contingent upon the foundational assumptions of the observer's belief system.",
+    "udaharana": "Any interpretive framework determines the meaning derived from data, just as the same archaeological evidence (Facts) yields different historical narratives (Truths): Western linear archaeology emphasizes stratigraphic dating and material progress, while Aboriginal Australian interpretive frameworks integrate Dreamtime cyclical cosmology and ancestral presence, and Islamic historiography emphasizes divine providence and moral lessons, demonstrating how foundational worldview assumptions shape factual interpretation.",
+    "upanaya": "The Four Conditions model is such a framework, where a society's answers to the preconditions create the lens through which it interprets the meaning of events and data, as exemplified by how Chinese wu xing (five elements) theory, Indian Ayurvedic tri-dosha system, Greek humoral theory, and modern biochemical frameworks interpret identical physiological phenomena through entirely different causal paradigms.",
+    "nigamana": "Therefore, a group's worldview determines the 'Truth' it derives from objective 'Facts'.",
+    "grounding_authority": "The Four Conditions Model / Philosophy of Science / https://example.com/four-conditions-theory",
+    "cultural_tradition": "Hindu",
+    "source_url": "https://example.com/four-conditions-epistemology",
+    "accessed": "2025-01-15",
+    "id": "d90e317f-08b2-44ba-96e4-a8b8a85dc98f"
+  },
+  {
+    "domain": "Historiography / The Four Conditions Model",
+    "pratijna": "A 'Regenesis' society develops differently from a 'Genesis' society because it is influenced by a mythologized memory of a prior civilization.",
+    "hetu": "Because this cultural memory acts as a powerful attractor, shaping the society's development as it attempts to reclaim a perceived 'Golden Age'.",
+    "udaharana": "Any system re-forming in the shadow of a predecessor will be shaped by that legacy, just as post-Gupta Indian kingdoms ('Regenesis') were fundamentally shaped by Sanskrit classical traditions and Vedic legitimacy concepts, Islamic post-Abbasid successor states referenced Rashidun and Umayyad caliphal models, Japanese Meiji restoration invoked Tennō divine ancestry and Heian court ideals, while truly 'Genesis' societies like early Polynesian island settlements or pre-Columbian American civilizations developed without such constraining precedents.",
+    "upanaya": "The model posits that the 'memory of civilization' pre-loads the answer to Condition 1 (Ancestry), fundamentally altering the society's developmental trajectory compared to a society forming from a blank slate, as evidenced by how Chinese dynastic cycles consistently invoke Mandate of Heaven (tianming) and sage-king models, Byzantine Empire claimed Roman imperial continuity, and contemporary pan-African movements reference ancient Egyptian and Ethiopian kingdoms.",
+    "nigamana": "Therefore, a 'Regenesis' society develops differently from a 'Genesis' society due to the influence of cultural memory.",
+    "grounding_authority": "The Four Conditions Model / Theory of History / https://example.com/four-conditions-theory",
+    "cultural_tradition": "Chinese",
+    "source_url": "https://example.com/four-conditions-historiography",
+    "accessed": "2025-01-15",
+    "id": "8199851a-b699-4ee8-815e-e395786f6567"
+  }
+]

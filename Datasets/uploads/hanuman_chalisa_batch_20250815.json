@@ -1,0 +1,263 @@
+[
+  {
+    "domain": "Literary History / Indology",
+    "pratijna": "The Hanuman Chalisa was composed by Tulsidas in the 16th century CE.",
+    "hetu": "Because this attribution is firmly established by a continuous literary tradition and the scholarly consensus.",
+    "udaharana": "The authorship and period of a major literary work are determined by historical records, manuscript traditions, and scholarly consensus, just as the plays of Kālidāsa are attributed to him based on the historical and literary record of the Gupta period.",
+    "upanaya": "The Hanuman Chalisa is such a work, consistently attributed to Tulsidas within the Bhakti literary tradition and by modern historical scholarship, placing him in the 16th century.",
+    "nigamana": "Therefore, the Hanuman Chalisa was composed by Tulsidas in the 16th century CE.",
+    "grounding_authority": "Historical Record & Literary Scholarly Consensus"
+  },
+  {
+    "domain": "Historical Linguistics",
+    "pratijna": "The Hanuman Chalisa is written in the Awadhi language.",
+    "hetu": "Because its grammar, vocabulary, and phonology are characteristic of Awadhi.",
+    "udaharana": "The language of any text is identified by its specific linguistic features, just as the Canterbury Tales is identified as being written in Middle English due to its distinct grammar, vocabulary, and phonology.",
+    "upanaya": "The Hanuman Chalisa exhibits these specific Awadhi features, such as its verb endings (e.g., 'baranauṁ') and nominal forms, which are consistent with the language of Tulsidas's other major work, the Ramcharitmanas.",
+    "nigamana": "Therefore, the Hanuman Chalisa is written in the Awadhi language.",
+    "grounding_authority": "Philological Analysis & Comparative Linguistics"
+  },
+  {
+    "domain": "Comparative Philology / Grammar",
+    "pratijna": "The Awadhi of the Hanuman Chalisa is amenable to Pāṇinian grammatical analysis.",
+    "hetu": "Because Awadhi, as a Middle Indo-Aryan language, retains sufficient structural and lexical roots from Sanskrit.",
+    "udaharana": "Any descendant language that preserves the core grammatical categories and lexical roots of its parent language can be analyzed using the grammatical framework of the parent, just as Italian can be analyzed using the principles of Latin grammar.",
+    "upanaya": "The Awadhi text of the Hanuman Chalisa demonstrates this preservation, allowing for a systematic reconstruction of its verses into grammatically correct Classical Sanskrit by mapping its forms back to their Sanskrit origins (e.g., Awadhi 'jānike' to Sanskrit absolutive 'jñātvā').",
+    "nigamana": "Therefore, the Awadhi of the Hanuman Chalisa is amenable to Pāṇinian grammatical analysis.",
+    "grounding_authority": "The Comparative Method of Historical Linguistics / Pāṇinian Grammar"
+  },
+  {
+    "domain": "Comparative Philosophy / Epistemology",
+    "pratijna": "The opening verses of the Hanuman Chalisa employ a philosophical method of doubt.",
+    "hetu": "Because the speaker begins by declaring their own mind as impure and their intellect as deficient ('buddhihīna'), thereby clearing the ground for receiving higher knowledge.",
+    "udaharana": "Any philosophical method that begins by systematically doubting or negating the author's own certainty in order to establish a more secure foundation for truth is a method of doubt, as exemplified by Descartes' method in his 'Meditations,' which begins by doubting all sensory and rational knowledge.",
+    "upanaya": "The first two dohas of the Hanuman Chalisa exhibit this structure, with the speaker first needing to purify the 'mind-mirror' and then acknowledging being 'buddhihīna' (devoid of intelligence) before proceeding to narrate the pure glory of the divine.",
+    "nigamana": "Therefore, the opening verses of the Hanuman Chalisa employ a philosophical method of doubt.",
+    "grounding_authority": "Comparative Philosophy & Literary Analysis"
+  },
+  {
+    "domain": "Cultural History / Comparative Literature",
+    "pratijna": "The Hanuman Chalisa is a product of Hindu-Muslim cultural syncretism.",
+    "hetu": "Because it employs the Dohā meter, a poetic form of Persian origin, to convey Hindu devotional themes.",
+    "udaharana": "Whenever a cultural artifact combines formal elements from one tradition (like a poetic meter) with thematic content from another, it is an example of syncretism, as seen in the architecture of the Taj Mahal, which blends Persian and Mughal forms with Indian design elements.",
+    "upanaya": "The Hanuman Chalisa is such an artifact, using the Dohā couplet form, which was popularized in India through the influence of Persianate courtly literature, as the primary vehicle for a central Bhakti devotional text.",
+    "nigamana": "Therefore, the Hanuman Chalisa is a product of Hindu-Muslim cultural syncretism.",
+    "grounding_authority": "Comparative Literature & Cultural History"
+  },
+  {
+    "domain": "Philology / Pāṇinian Grammar",
+    "pratijna": "The Awadhi absolutive 'jānike' (having known) is correctly reconstructed into Sanskrit as 'jñātvā'.",
+    "hetu": "Because the Sanskrit suffix '-tvā' forms the absolutive (gerund), indicating a prior completed action, which is the precise function of the Awadhi form 'jānike'.",
+    "udaharana": "In Pāṇinian grammar, the absolutive is used to connect two actions performed by the same subject, where the absolutive verb is completed first; for example, 'rāmaḥ odanaṁ khāditvā, jalaṁ pibati' (Rama, *having eaten* the rice, drinks water).",
+    "upanaya": "The phrase 'buddhihīna tanu jānike, sumirauṁ pavanakumāra' is such a case, where 'knowing' oneself to be without intelligence is the action completed before the main action of 'remembering' (sumirauṁ).",
+    "nigamana": "Therefore, the Awadhi absolutive 'jānike' is correctly reconstructed into Sanskrit as 'jñātvā'.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī) & The Comparative Method"
+  },
+  {
+    "domain": "Philology / Pāṇinian Grammar",
+    "pratijna": "The Awadhi phrase 'dehu mohi' (give me) is correctly reconstructed into Sanskrit as 'mahyaṁ dehi'.",
+    "hetu": "Because the Sanskrit verb 'dā' (to give) governs the dative case (sampradāna kāraka) for the recipient of the action.",
+    "udaharana": "Any verb of giving in Sanskrit requires the recipient to be in the dative case, as established by Pāṇini's sūtra 'karmaṇā yam abhipraiti sa sampradānam'; for example, in 'viprāya gāṁ dadāti' (He gives a cow *to the Brahmin*), 'viprāya' is in the dative case.",
+    "upanaya": "The phrase 'dehu mohi' is such a case of giving, where the recipient is 'mohi' (me). Therefore, its Sanskrit equivalent must be in the dative case, which is 'mahyam'. The imperative verb form 'dehu' corresponds to the Sanskrit second-person singular imperative 'dehi'.",
+    "nigamana": "Therefore, the Awadhi phrase 'dehu mohi' is correctly reconstructed into Sanskrit as 'mahyaṁ dehi'.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī) & The Comparative Method"
+  },
+  {
+    "domain": "Philology / Pāṇinian Grammar",
+    "pratijna": "The Awadhi phrase 'harahu kalesa bikāra' (remove afflictions, imperfections) is correctly reconstructed as 'hara sarvān kleśān vikārān ca'.",
+    "hetu": "Because the objects of a transitive verb (karman) in Sanskrit must be in the accusative case (dvitīyā vibhakti).",
+    "udaharana": "In Sanskrit grammar, the direct object of an action takes the accusative case, as per Pāṇini's sūtra 'karturīpsitatamaṁ karma'; for example, in 'saḥ phalaṁ khādati' (He eats *the fruit*), 'phalam' is in the accusative case.",
+    "upanaya": "In the phrase 'harahu kalesa bikāra', the words 'kalesa' and 'bikāra' are the objects of the action of removing ('harahu'). Their Sanskrit cognates, 'kleśa' and 'vikāra', must therefore be rendered in the plural accusative case, becoming 'kleśān' and 'vikārān'.",
+    "nigamana": "Therefore, the Awadhi phrase 'harahu kalesa bikāra' is correctly reconstructed as 'hara sarvān kleśān vikārān ca'.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī) & The Comparative Method"
+  },
+  {
+    "domain": "Philology / Pāṇinian Grammar",
+    "pratijna": "The Awadhi interjection 'Jaya' is correctly reconstructed into formal Sanskrit as 'Jayatu'.",
+    "hetu": "Because the context of a hymn implies a blessing or wish for victory, for which the Sanskrit third-person imperative (Āśīrliṅ), 'jayatu' (may he be victorious), is the more precise and formal grammatical mood.",
+    "udaharana": "In formal blessings or proclamations, the imperative mood is used to express a wish or command, just as the blessing 'may it be auspicious' is rendered 'śubhaṁ bhavatu' in Sanskrit.",
+    "upanaya": "The verse 'Jaya Hanumāna' is a devotional utterance expressing the speaker's wish for Hanuman to be victorious.",
+    "nigamana": "Therefore, reconstructing the interjection 'Jaya' as the formal imperative 'Jayatu' is a grammatically and stylistically correct translation.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī) & Principles of Sanskrit Stylistics"
+  },
+  {
+    "domain": "Philology / Pāṇinian Grammar",
+    "pratijna": "The Awadhi phrase 'tihuṁ loka ujāgara' is correctly reconstructed as the Sanskrit compound 'triloka-prakāśaka'.",
+    "hetu": "Because Sanskrit grammar favors the formation of single compound words (samāsa) to express complex adjectival concepts, and the Awadhi components correspond directly to Sanskrit roots.",
+    "udaharana": "A descriptive phrase is often condensed into a single compound in Sanskrit; for instance, 'one who holds a trident in his hand' becomes the single Bahuvrīhi compound 'śūlapāṇi'.",
+    "upanaya": "The phrase describes Hanuman's quality of illuminating ('ujāgara' from Skt. 'prakāśaka') the three worlds ('tihuṁ loka' from Skt. 'triloka'). This is aptly rendered as the single Tatpuruṣa compound 'triloka-prakāśaka' (Illuminator of the three worlds).",
+    "nigamana": "Therefore, the reconstruction 'triloka-prakāśaka' is a correct and idiomatic translation.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī) & The Comparative Method"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar",
+    "pratijna": "In the verse '...paripapraccha vālmīkiḥ...', the verb 'paripapraccha' (he asked) is correctly in the third-person singular.",
+    "hetu": "Because the verb's person and number must agree with its subject (kartā), which is 'vālmīkiḥ' (Vālmīki), a third-person singular noun.",
+    "udaharana": "In the active voice (kartari prayoga), the finite verb's ending (tiṅ pratyaya) must correspond to the person and number of the subject, as per Pāṇinian convention. For example, in 'bālakaḥ paṭhati' (the boy reads), 'paṭhati' is third-person singular because 'bālakaḥ' is third-person singular.",
+    "upanaya": "In this verse, the agent performing the action of asking is 'vālmīkiḥ', which is a noun in the third-person, singular number, and nominative case.",
+    "nigamana": "Therefore, the verb 'paripapraccha' is correctly conjugated in the third-person singular to agree with its subject.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.105-108, 3.4.78)"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar",
+    "pratijna": "In the verse '...nāradaṁ paripapraccha...', the word 'nāradaṁ' is correctly in the accusative case (dvitīyā vibhakti).",
+    "hetu": "Because it is the direct object (karman) of the transitive verb 'paripapraccha' (to ask).",
+    "udaharana": "The direct object of a transitive verb, defined as that which the agent most desires to attain through the action, takes the accusative case, as per Pāṇini's sūtra 'karturīpsitatamaṁ karma' (1.4.49). For example, in 'chātraḥ pustakaṁ paṭhati' (the student reads *the book*), 'pustakaṁ' is the object and is in the accusative case.",
+    "upanaya": "In this verse, the person whom Vālmīki wishes to reach with his action of asking is Nārada.",
+    "nigamana": "Therefore, the word 'nāradaṁ' is correctly placed in the accusative case to signify it as the direct object.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.49, 2.3.2)"
+  },
+  {
+    "domain": "Sanskrit Phonology / Pāṇinian Grammar (Sandhi)",
+    "pratijna": "The sequence 'dharmajñaḥ ca' is correctly combined via sandhi as 'dharmajñaśca'.",
+    "hetu": "Because a visarga (ḥ) followed by a voiceless palatal consonant (ca) transforms into a palatal sibilant (ś) according to the rules of Visarga and Ścutva sandhi.",
+    "udaharana": "Any visarga followed by a palatal consonant like 'c' undergoes this transformation, as established by Pāṇini's sūtras (e.g., `visarjanīyasya saḥ` followed by `stoḥ ścunā ścuḥ`); for instance, `rāmaḥ ca` becomes `rāmaśca`.",
+    "upanaya": "The sequence 'dharmajñaḥ ca' is such a case, where the visarga at the end of 'dharmajñaḥ' is immediately followed by the palatal consonant 'ca'.",
+    "nigamana": "Therefore, the sequence 'dharmajñaḥ ca' is correctly combined as 'dharmajñaśca'.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 8.3.34, 8.4.40)"
+  },
+  {
+    "domain": "Sanskrit Phonology / Pāṇinian Grammar (Sandhi)",
+    "pratijna": "The sequence 'kaḥ nu asmin' is correctly combined via sandhi as 'konvasmin'.",
+    "hetu": "Because the sequence involves the sequential application of Visarga sandhi, which changes 'kaḥ nu' to 'ko nu', followed by Yaṇ sandhi, which changes 'nu asmin' to 'nvasmin'.",
+    "udaharana": "Sanskrit phonological rules apply sequentially. A visarga following a short 'a' and preceding a voiced consonant becomes 'o' (e.g., `manaḥ + rathaḥ` -> `manorathaḥ`), and a short 'u' preceding a dissimilar vowel becomes the semivowel 'v' (e.g., `su + āgatam` -> `svāgatam`).",
+    "upanaya": "The sequence 'kaḥ nu asmin' is such a case. First, the visarga in 'kaḥ' (preceded by 'a') before the voiced 'n' becomes 'o', yielding 'ko nu'. Second, the 'u' in 'nu' before the dissimilar vowel 'a' in 'asmin' becomes 'v', yielding 'nvasmin'. The combination results in 'konvasmin'.",
+    "nigamana": "Therefore, the sequence 'kaḥ nu asmin' is correctly combined via sandhi as 'konvasmin'.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 6.1.113, 6.1.87, 6.1.77)"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar (Kāraka)",
+    "pratijna": "In '...vākyaṁ śrutvā...', the word 'vākyaṁ' (word/speech) is correctly in the accusative case.",
+    "hetu": "Because it is the direct object (karman) of the action of hearing, represented by the absolutive verb 'śrutvā' (having heard).",
+    "udaharana": "The direct object of a transitive action takes the accusative case (dvitīyā vibhakti), as per Pāṇini's sūtra 'karturīpsitatamaṁ karma'. For example, in 'gītaṁ śṛṇoti' (he hears a song), 'gītaṁ' is the object and is in the accusative case.",
+    "upanaya": "In this specific phrase, the thing that Nārada heard is the 'vākyaṁ' (speech) of Vālmīki.",
+    "nigamana": "Therefore, the word 'vākyaṁ' is correctly placed in the accusative case.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.49, 2.3.2)"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar (Kāraka)",
+    "pratijna": "In 'ikṣvākuvaṁśaprabhavaḥ', the component 'ikṣvākuvaṁśa' is correctly in the genitive sense ('of the Ikṣvāku dynasty').",
+    "hetu": "Because the genitive case (ṣaṣṭhī vibhakti) is used to denote relationships (sambandha), such as origin, which is not covered by other specific kāraka roles.",
+    "udaharana": "Any relationship of origin or belonging is expressed through the genitive case, as established by Pāṇini's sūtra 'ṣaṣṭhī śeṣe'. For example, 'rāmasya putraḥ' means 'Rama's son' or 'the son of Rama'.",
+    "upanaya": "The compound 'ikṣvākuvaṁśaprabhavaḥ' describes Rāma as one whose origin ('prabhavaḥ') is from the Ikṣvāku dynasty ('ikṣvākuvaṁśa'). This relationship of origin is a classic application of the genitive sense.",
+    "nigamana": "Therefore, the genitive sense is correctly used within the compound to denote origin.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 2.3.50)"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar (Kāraka)",
+    "pratijna": "In 'cāritreṇa ca ko yuktaḥ', the word 'cāritreṇa' (by character) is correctly in the instrumental case.",
+    "hetu": "Because it represents the means or instrument (karaṇa) by which the subject is 'yuktaḥ' (endowed or qualified).",
+    "udaharana": "The most effective means for accomplishing an action is termed karaṇa and takes the instrumental case (tṛtīyā vibhakti), as per Pāṇini's sūtra 'sādhakatamaṁ karaṇam'. For example, in 'saḥ hastena likhati' (he writes *with his hand*), 'hastena' is the instrument.",
+    "upanaya": "In this verse, 'cāritra' (character) is the instrument or means by which a person is qualified or endowed.",
+    "nigamana": "Therefore, the word 'cāritreṇa' is correctly placed in the instrumental case.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.42, 2.3.18)"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar (Kāraka)",
+    "pratijna": "In 'sarvabhūteṣu ko hitaḥ', the word 'sarvabhūteṣu' (in all beings) is correctly in the locative case.",
+    "hetu": "Because it denotes the locus or location (adhikaraṇa) of the state of being 'hitaḥ' (engaged in the welfare of).",
+    "udaharana": "The location where an action or state occurs takes the locative case (saptamī vibhakti), as per Pāṇini's sūtra 'ādhāro'dhikaraṇam'. For example, in 'grāme vasati' (he lives *in the village*), 'grāme' is the location.",
+    "upanaya": "In this verse, 'sarvabhūtāni' (all beings) are the locus wherein the quality of being beneficial or engaged in welfare resides.",
+    "nigamana": "Therefore, the word 'sarvabhūteṣu' is correctly placed in the locative case.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.45, 2.3.36)"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar (Samāsa)",
+    "pratijna": "The phrase 'dharmajñaśca kṛtajñaśca' correctly employs the indeclinable 'ca' to form a copulative sense.",
+    "hetu": "Because the indeclinable 'ca' (and) is used to conjoin words of the same case and status, and its repetition after each member is a valid stylistic construction.",
+    "udaharana": "The conjunction 'ca' is used to connect items in a list, as established by Pāṇini's sūtra 'cārthe dvandvaḥ'. A common usage is to place 'ca' after each item being conjoined, as in 'rāmaśca lakṣmaṇaśca' (Rama and Lakshmana).",
+    "upanaya": "The phrase 'dharmajñaśca kṛtajñaśca' is such a case, where the qualities of 'knowing duty' and 'being grateful' are conjoined.",
+    "nigamana": "Therefore, the use of 'ca' after each word correctly creates a copulative or conjunctive meaning.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 2.2.29)"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar (Kāraka)",
+    "pratijna": "In the phrase 'krodhaṁ jitavān', the word 'krodhaṁ' (anger) is correctly in the accusative case.",
+    "hetu": "Because it is the direct object (karman) of the action of conquering ('jitavān').",
+    "udaharana": "The direct object of a transitive action takes the accusative case (dvitīyā vibhakti), as per Pāṇini's sūtra 'karturīpsitatamaṁ karma'. For example, in 'śatruṁ jayati' (he conquers the enemy), 'śatruṁ' is the object and is in the accusative case.",
+    "upanaya": "In this specific phrase, the thing that the subject has conquered is 'krodhaṁ' (anger).",
+    "nigamana": "Therefore, the word 'krodhaṁ' is correctly placed in the accusative case.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.49, 2.3.2)"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar (Kāraka)",
+    "pratijna": "In 'saṁyuge devāḥ bibhyati', the word 'saṁyuge' (in battle) is correctly in the locative case.",
+    "hetu": "Because it denotes the location (adhikaraṇa) where the action of fearing ('bibhyati') takes place.",
+    "udaharana": "The location where an action occurs takes the locative case (saptamī vibhakti), as per Pāṇini's sūtra 'ādhāro'dhikaraṇam'. For example, in 'gṛhe tiṣṭhati' (he stays *in the house*), 'gṛhe' is the location.",
+    "upanaya": "In this verse, the 'saṁyuga' (battle) is the specific location where the gods experience fear.",
+    "nigamana": "Therefore, the word 'saṁyuge' is correctly placed in the locative case.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.45, 2.3.36)"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar (Samāsa)",
+    "pratijna": "The word 'mahāhanuḥ' (having a great jaw) is a correctly formed Bahuvrīhi compound.",
+    "hetu": "Because it is an adjectival compound whose meaning refers to an external entity (Rāma) not denoted by its constituent parts ('mahā' - great; 'hanu' - jaw).",
+    "udaharana": "Any compound that functions as an adjective to describe another noun, where the primary meaning is outside the compound itself, is a Bahuvrīhi compound, as per Pāṇini's sūtra 'anekamanyapadārthe'. For example, 'pītāmbaraḥ' (yellow-garmented one) refers to Viṣṇu, not to the garment itself.",
+    "upanaya": "The word 'mahāhanuḥ' is such a case, as it does not mean 'a great jaw' but rather 'one who possesses a great jaw', functioning as an adjective for Rāma.",
+    "nigamana": "Therefore, 'mahāhanuḥ' is a correctly formed Bahuvrīhi compound.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 2.2.24)"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar (Samāsa)",
+    "pratijna": "The word 'śatrunibarhaṇaḥ' (destroyer of enemies) is a correctly formed Tatpuruṣa compound.",
+    "hetu": "Because it is a determinative compound where the second member ('nibarhaṇaḥ' - destroyer) is the principal element, and the first member ('śatru' - enemy) specifies it, standing in an object-to-action relationship.",
+    "udaharana": "Any compound where the final member is primary and is qualified by the first member, with a specific case relationship between them, is a Tatpuruṣa compound, as per Pāṇini's sūtra 'tatpuruṣaḥ'. For example, 'rāja-puruṣaḥ' (king's servant) means 'a servant of the king'.",
+    "upanaya": "The word 'śatrunibarhaṇaḥ' is such a case, as it means 'a destroyer *of enemies*', where 'śatru' is in a genitive or objective relationship to 'nibarhaṇaḥ'.",
+    "nigamana": "Therefore, 'śatrunibarhaṇaḥ' is a correctly formed Tatpuruṣa compound.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 2.1.22)"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar (Avyaya)",
+    "pratijna": "In 'dharmāt api', the word 'api' (also/even) is correctly used as an indeclinable particle.",
+    "hetu": "Because 'api' is classified as an avyaya, a class of words that do not undergo declension or conjugation and are used to modify the sense of other words or clauses.",
+    "udaharana": "Indeclinables are words that retain a fixed form regardless of case, gender, or number, as established in Pāṇinian grammar. For example, 'ca' (and) and 'eva' (indeed) are always used in their base form.",
+    "upanaya": "The word 'api' is such a case, used here to add emphasis ('*even* from dharma') without changing its form to agree with any other word in the sentence.",
+    "nigamana": "Therefore, 'api' is correctly used as an indeclinable particle.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 1.1.37-41)"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar (Kāraka)",
+    "pratijna": "In 'dharmāt na vijugupsate', the word 'dharmāt' (from dharma) is correctly in the ablative case.",
+    "hetu": "Because it represents the point of separation or source from which the subject does not turn away, a meaning governed by the ablative case (pañcamī vibhakti).",
+    "udaharana": "The ablative case is used to denote a fixed point from which separation occurs, as per Pāṇini's sūtra 'dhruvamapāye'pādānam'. For example, in 'grāmāt āgacchati' (he comes *from the village*), 'grāmāt' is the point of separation.",
+    "upanaya": "In this verse, 'dharma' is the fixed point from which the subject does not shrink or turn away ('na vijugupsate').",
+    "nigamana": "Therefore, the word 'dharmāt' is correctly placed in the ablative case.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.24, 2.3.28)"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar (Voice)",
+    "pratijna": "The verb 'śrūyate' (is heard) is a correctly formed passive voice (karmaṇi prayoga) verb.",
+    "hetu": "Because it is formed from the root 'śru' (to hear) with the passive marker '-ya-' and takes an ātmanepada (middle voice) ending, '-te', which is characteristic of the passive construction in the present tense.",
+    "udaharana": "In the passive voice, the verb root is augmented with the suffix '-ya-' and conjugated with ātmanepada endings, as established by Pāṇinian grammar. For example, from the root 'kṛ' (to do), the passive form is 'kriyate' (it is done).",
+    "upanaya": "The verb 'śrūyate' is such a case, where the root 'śru' is combined with '-ya-' and the third-person singular ātmanepada ending '-te' to mean 'it is heard'.",
+    "nigamana": "Therefore, 'śrūyate' is a correctly formed passive voice verb.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.67, 1.3.13)"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar (Tense)",
+    "pratijna": "The verb 'bhaviṣyati' (will be) is a correctly formed future tense (lṛṭ lakāra) verb.",
+    "hetu": "Because it is formed from the root 'bhū' (to be) with the future tense marker '-iṣya-' and a standard parasmaipada (active voice) ending '-ti'.",
+    "udaharana": "The simple future tense is formed by adding the infix '-sya-' or '-iṣya-' between the verb root and the present tense endings, as established by Pāṇinian grammar. For example, from the root 'paṭh' (to read), the future form is 'paṭhiṣyati' (he will read).",
+    "upanaya": "The verb 'bhaviṣyati' is such a case, where the root 'bhū' is combined with the infix '-iṣya-' and the third-person singular ending '-ti' to signify a future action.",
+    "nigamana": "Therefore, 'bhaviṣyati' is a correctly formed future tense verb.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.33)"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar (Case)",
+    "pratijna": "In 'maharṣe tvaṁ samartho'si', the word 'maharṣe' (O great sage) is correctly in the vocative case.",
+    "hetu": "Because it is used for direct address (sambodhana), which is grammatically marked by the vocative case, often identical to the nominative but without the final visarga for masculine '-a' stems.",
+    "udaharana": "The vocative case is used to call or address someone, as per Pāṇini's sūtra 'sāmantritam'. For a masculine noun ending in '-a' like 'nṛpa' (king), the vocative singular is 'nṛpa' (O king!).",
+    "upanaya": "The word 'maharṣe' is such a case, being the vocative singular of 'maharṣi', used by the speaker to directly address Nārada.",
+    "nigamana": "Therefore, 'maharṣe' is correctly used in the vocative case for direct address.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 2.3.47, 2.3.48)"
+  },
+  {
+    "domain": "Sanskrit Syntax / Pāṇinian Grammar (Avyaya)",
+    "pratijna": "In 'paramṁ kautūhalaṁ hi me', the word 'hi' (for, indeed) is correctly used as an indeclinable particle.",
+    "hetu": "Because 'hi' is classified as an avyaya, a class of words that do not change form and are used for emphasis or to state a reason.",
+    "udaharana": "Indeclinables are words that retain a fixed form regardless of case, gender, or number, as established in Pāṇinian grammar. For example, 'ca' (and) and 'eva' (indeed) are always used in their base form.",
+    "upanaya": "The word 'hi' is such a case, used here to add emphasis or provide a reason ('*for* my curiosity is great') without changing its form.",
+    "nigamana": "Therefore, 'hi' is correctly used as an indeclinable particle.",
+    "grounding_authority": "Pāṇinian Grammar (Aṣṭādhyāyī 1.1.37-41)"
+  }
+]
