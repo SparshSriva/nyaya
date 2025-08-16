@@ -1,0 +1,1575 @@
+{
+  "timestamp": "2025-08-15T17:16:15.801511",
+  "corpus_size": 248,
+  "unique_domains": 175,
+  "unique_authorities": 229,
+  "cultural_distribution": {
+    "Other": 190,
+    "Contemporary Western": 18,
+    "Islamic Philosophy": 13,
+    "Western Philosophy": 22,
+    "Indian Philosophy": 1,
+    "Buddhist Philosophy": 1,
+    "Chinese Philosophy": 1,
+    "African Philosophy": 1,
+    "Indigenous Philosophy": 1
+  },
+  "category_stats": {
+    "General": {
+      "total_entries": 47,
+      "unique_subcategories": 20,
+      "subcategories": {
+        "History of Science": 7,
+        "Physics": 9,
+        "Historical Linguistics": 10,
+        "Historical Linguistics & Genetics": 1,
+        "History of Mathematics": 4,
+        "Mathematics": 1,
+        "Evolutionary Biology": 1,
+        "Historical Linguistics & Archaeology": 1,
+        "Cryptography & Abstract Algebra": 1,
+        "Biology": 1,
+        "Cellular Biology": 1,
+        "Ancient Near Eastern History & Art History": 1,
+        "Quantum Physics & Computer Science": 1,
+        "Islamic Theology": 1,
+        "Media History": 2,
+        "Broadcast History": 1,
+        "History": 1,
+        "Economic History": 1,
+        "Military History": 1,
+        "Political History": 1
+      }
+    },
+    "Archaic Biology": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "History of Science": 1
+      }
+    },
+    "Historical Linguistics": {
+      "total_entries": 7,
+      "unique_subcategories": 3,
+      "subcategories": {
+        "Archaeology": 3,
+        "Archaeogenetics": 2,
+        "Indo-European Studies": 2
+      }
+    },
+    "Religious Studies": {
+      "total_entries": 4,
+      "unique_subcategories": 2,
+      "subcategories": {
+        "Linguistics": 2,
+        "Islamic Theology": 2
+      }
+    },
+    "Mathematics": {
+      "total_entries": 13,
+      "unique_subcategories": 5,
+      "subcategories": {
+        "Logic": 3,
+        "Abstract Algebra": 2,
+        "History of Algebra": 1,
+        "Category Theory": 5,
+        "History of Science": 2
+      }
+    },
+    "Metamathematics": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Philosophy of Mathematics": 1
+      }
+    },
+    "History of Science": {
+      "total_entries": 7,
+      "unique_subcategories": 4,
+      "subcategories": {
+        "Philosophy": 1,
+        "Biology": 2,
+        "Astrobiology": 2,
+        "Physics": 2
+      }
+    },
+    "Biology": {
+      "total_entries": 6,
+      "unique_subcategories": 5,
+      "subcategories": {
+        "History of Science": 1,
+        "Abiogenesis": 1,
+        "Biochemistry": 2,
+        "Earth Science": 1,
+        "Microbiology": 1
+      }
+    },
+    "Astrobiology": {
+      "total_entries": 3,
+      "unique_subcategories": 3,
+      "subcategories": {
+        "History of Science": 1,
+        "Philosophy of Science": 1,
+        "Theoretical Engineering": 1
+      }
+    },
+    "Astroethics": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Bioethics": 1
+      }
+    },
+    "Literary History": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "History of Ideas": 1
+      }
+    },
+    "Media Analysis": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Documentary Film": 1
+      }
+    },
+    "Physics": {
+      "total_entries": 10,
+      "unique_subcategories": 5,
+      "subcategories": {
+        "Quantum Mechanics": 1,
+        "Group Theory": 1,
+        "Cosmology": 4,
+        "General Relativity": 3,
+        "Astrophysics": 1
+      }
+    },
+    "Quantum Mechanics": {
+      "total_entries": 3,
+      "unique_subcategories": 2,
+      "subcategories": {
+        "Physics": 1,
+        "Aesthetics": 2
+      }
+    },
+    "Historiography": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Historical Methodology": 1
+      }
+    },
+    "History": {
+      "total_entries": 18,
+      "unique_subcategories": 9,
+      "subcategories": {
+        "Linguistics": 1,
+        "Historical Linguistics": 1,
+        "Indology": 1,
+        "Archaeology": 3,
+        "Assyriology": 2,
+        "Ancient Law": 1,
+        "Diplomatic History": 4,
+        "Diplomacy": 1,
+        "International Relations": 4
+      }
+    },
+    "Linguistics": {
+      "total_entries": 2,
+      "unique_subcategories": 2,
+      "subcategories": {
+        "Philology": 1,
+        "Indology": 1
+      }
+    },
+    "Computer Science": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Abstract Mathematics": 1
+      }
+    },
+    "Category Theory": {
+      "total_entries": 3,
+      "unique_subcategories": 3,
+      "subcategories": {
+        "Abstract Algebra": 1,
+        "Quantum Physics": 1,
+        "Diagrammatic Calculus": 1
+      }
+    },
+    "Abstract Algebra": {
+      "total_entries": 2,
+      "unique_subcategories": 2,
+      "subcategories": {
+        "Mathematics": 1,
+        "History of Mathematics": 1
+      }
+    },
+    "Applied Mathematics": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Theoretical Science": 1
+      }
+    },
+    "Geobiology": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Paleobiology": 1
+      }
+    },
+    "Microbiology": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Biochemistry": 1
+      }
+    },
+    "Evolutionary Biology": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Paleobiology": 1
+      }
+    },
+    "Art History": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Museology": 1
+      }
+    },
+    "Ancient History": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Assyriology": 1
+      }
+    },
+    "Legal History": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Historiography": 1
+      }
+    },
+    "Theoretical Physics": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Philosophy of Science": 1
+      }
+    },
+    "Academic Classification Systems": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Bibliometrics": 1
+      }
+    },
+    "Categorical Quantum Mechanics": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Physics": 1
+      }
+    },
+    "Religious History": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Comparative Mythology": 1
+      }
+    },
+    "Islamic Theology": {
+      "total_entries": 7,
+      "unique_subcategories": 3,
+      "subcategories": {
+        "Eschatology": 1,
+        "Quranic Studies": 1,
+        "Folklore": 5
+      }
+    },
+    "Arabian Mythology": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Islamic Folklore": 1
+      }
+    },
+    "Demonology": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Paranormal Folklore": 1
+      }
+    },
+    "Media Studies": {
+      "total_entries": 4,
+      "unique_subcategories": 3,
+      "subcategories": {
+        "Television Broadcasting": 2,
+        "Broadcast Information": 1,
+        "Broadcast History": 1
+      }
+    },
+    "Chronology": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Media History": 1
+      }
+    },
+    "Media History": {
+      "total_entries": 2,
+      "unique_subcategories": 2,
+      "subcategories": {
+        "Television Broadcasting": 1,
+        "Japanese Animation Broadcasting": 1
+      }
+    },
+    "Media Industry": {
+      "total_entries": 2,
+      "unique_subcategories": 2,
+      "subcategories": {
+        "Business History": 1,
+        "Business": 1
+      }
+    },
+    "Media Business History": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Anime Industry": 1
+      }
+    },
+    "Logic": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Epistemology": 1
+      }
+    },
+    "Comparative Mythology": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Historical Linguistics": 1
+      }
+    },
+    "Literary Criticism": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Political Interpretation": 1
+      }
+    },
+    "Mathematical Logic": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Philosophy of Mathematics": 1
+      }
+    },
+    "Epistemology": {
+      "total_entries": 2,
+      "unique_subcategories": 2,
+      "subcategories": {
+        "Machine Learning": 1,
+        "Meta-Logic": 1
+      }
+    },
+    "Ethics": {
+      "total_entries": 5,
+      "unique_subcategories": 3,
+      "subcategories": {
+        "Moral Philosophy": 3,
+        "Virtue Ethics": 1,
+        "Care Ethics": 1
+      }
+    },
+    "Philosophy of Mind": {
+      "total_entries": 9,
+      "unique_subcategories": 7,
+      "subcategories": {
+        "Personal Identity": 3,
+        "Other Minds Problem": 1,
+        "Extended Mind": 1,
+        "Enactivism": 1,
+        "Predictive Processing": 1,
+        "Panpsychism": 1,
+        "Eliminative Materialism": 1
+      }
+    },
+    "Cognitive Science": {
+      "total_entries": 3,
+      "unique_subcategories": 2,
+      "subcategories": {
+        "Philosophy of Mind": 2,
+        "Embodied Cognition": 1
+      }
+    },
+    "Aesthetics": {
+      "total_entries": 5,
+      "unique_subcategories": 4,
+      "subcategories": {
+        "Philosophy of Art": 2,
+        "Aesthetic Experience": 1,
+        "Art and Truth": 1,
+        "Creativity": 1
+      }
+    },
+    "Political Philosophy": {
+      "total_entries": 2,
+      "unique_subcategories": 2,
+      "subcategories": {
+        "Theory of Justice": 1,
+        "Theory of Authority": 1
+      }
+    },
+    "Economics": {
+      "total_entries": 2,
+      "unique_subcategories": 2,
+      "subcategories": {
+        "Game Theory": 1,
+        "Market Theory": 1
+      }
+    },
+    "Legal Philosophy": {
+      "total_entries": 2,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Constitutional Interpretation": 2
+      }
+    },
+    "Modal Logic": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Philosophy of Necessity": 1
+      }
+    },
+    "Philosophy of Time": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Temporal Paradoxes": 1
+      }
+    },
+    "Bioethics": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Medical Ethics": 1
+      }
+    },
+    "Environmental Ethics": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Climate Philosophy": 1
+      }
+    },
+    "Philosophy of Technology": {
+      "total_entries": 3,
+      "unique_subcategories": 3,
+      "subcategories": {
+        "Artificial Intelligence": 1,
+        "Human-Computer Interaction": 1,
+        "Digital Ontology": 1
+      }
+    },
+    "Neurophilosophy": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Free Will": 1
+      }
+    },
+    "Philosophy of Science": {
+      "total_entries": 4,
+      "unique_subcategories": 4,
+      "subcategories": {
+        "Scientific Realism": 1,
+        "Scientific Explanation": 1,
+        "Theory Change": 1,
+        "Social Epistemology": 1
+      }
+    },
+    "Social Psychology": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Behavioral Economics": 1
+      }
+    },
+    "Philosophy of Language": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Meaning Theory": 1
+      }
+    },
+    "Anthropology": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Cultural Evolution": 1
+      }
+    },
+    "Metaethics": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Moral Epistemology": 1
+      }
+    },
+    "Philosophy of Religion": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Teleological Argument": 1
+      }
+    },
+    "Philosophy of Mathematics": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Mathematical Ontology": 1
+      }
+    },
+    "Information Theory": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Consciousness": 1
+      }
+    },
+    "Quantum Physics": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Measurement Problem": 1
+      }
+    },
+    "Evolutionary Psychology": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Human Nature": 1
+      }
+    },
+    "Phenomenology": {
+      "total_entries": 4,
+      "unique_subcategories": 3,
+      "subcategories": {
+        "Existentialism": 2,
+        "Consciousness Studies": 1,
+        "Embodied Cognition": 1
+      }
+    },
+    "Critical Theory": {
+      "total_entries": 4,
+      "unique_subcategories": 4,
+      "subcategories": {
+        "Social Philosophy": 1,
+        "Communication": 1,
+        "Power Analysis": 1,
+        "Deconstruction": 1
+      }
+    },
+    "Feminist Epistemology": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Philosophy of Science": 1
+      }
+    },
+    "Postcolonial Theory": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Philosophy": 1
+      }
+    },
+    "Applied Ethics": {
+      "total_entries": 4,
+      "unique_subcategories": 4,
+      "subcategories": {
+        "Neuroethics": 1,
+        "Digital Ethics": 1,
+        "Environmental Personhood": 1,
+        "Robot Rights": 1
+      }
+    },
+    "Digital Humanities": {
+      "total_entries": 2,
+      "unique_subcategories": 2,
+      "subcategories": {
+        "Computational Creativity": 1,
+        "Algorithmic Bias": 1
+      }
+    },
+    "Biosemiotics": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Meaning in Biology": 1
+      }
+    },
+    "Cognitive Archaeology": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Symbolic Thought": 1
+      }
+    },
+    "Astrobiology Ethics": {
+      "total_entries": 2,
+      "unique_subcategories": 2,
+      "subcategories": {
+        "Planetary Protection": 1,
+        "Extraterrestrial Rights": 1
+      }
+    },
+    "Quantum Information Theory": {
+      "total_entries": 2,
+      "unique_subcategories": 2,
+      "subcategories": {
+        "Quantum Cognition": 1,
+        "Information Physics": 1
+      }
+    },
+    "Metaphysics": {
+      "total_entries": 3,
+      "unique_subcategories": 3,
+      "subcategories": {
+        "Personal Identity": 1,
+        "Free Will": 1,
+        "Consciousness": 1
+      }
+    },
+    "Indian Philosophy": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Advaita Vedanta": 1
+      }
+    },
+    "Buddhist Philosophy": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Dependent Origination": 1
+      }
+    },
+    "Chinese Philosophy": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Wu Wei": 1
+      }
+    },
+    "Islamic Philosophy": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Divine Unity": 1
+      }
+    },
+    "African Philosophy": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Ubuntu": 1
+      }
+    },
+    "Indigenous Philosophy": {
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Land-Based Knowledge": 1
+      }
+    }
+  },
+  "authority_distribution": {
+    "General": {
+      "total_citations": 153,
+      "unique_sources": 134,
+      "source_distribution": {
+        "The Scientific Method and the Historical Record": 1,
+        "Aristotelian Natural Philosophy": 1,
+        "Historical Record of Scientific Thought": 1,
+        "Experimental Observation": 1,
+        "Principles of Quantum Mechanics": 1,
+        "The Comparative-Historical Method (integrating linguistics, archaeology, and genetics)": 1,
+        "The Kurgan Hypothesis (Synthesis of Linguistic and Archaeological Evidence)": 1,
+        "Scientific Method (applied to Paleogenetics and Comparative Linguistics)": 1,
+        "The comparative method in historical linguistics and archaeological records.": 1,
+        "The Comparative Method of Linguistics": 1,
+        "The Comparative Method & Archaeological Record (Indo-Aryan Migration Theory)": 1,
+        "Historical and Textual Record": 1,
+        "Historical Record & Epigraphy": 1,
+        "The Historical and Philological Record": 1,
+        "The Historical Record of Academic Publications": 1,
+        "Mathematical Literature and Academic Consensus": 1,
+        "Mathematical Practice and Proof": 1,
+        "Formal Definitions of Algebraic Structures": 1,
+        "The corpus of Mathematical Proofs and the historical development of the field.": 1,
+        "Group Theory & Noether's Theorem": 1,
+        "Scientific Method & Historical Record": 2,
+        "Historical Record & History of Science": 1,
+        "Historical Record & Aristotle's Biological Works (e.g., *History of Animals*)": 1,
+        "Historical Record & Academic Consensus": 1,
+        "The Scientific Method & Empirical Evidence": 1,
+        "The Scientific Method & Historical Record": 1,
+        "Scientific Method & Genetic Evidence": 1,
+        "The Scientific Method & Experimental Evidence": 1,
+        "The Scientific Record (specifically, Shklovskii & Sagan, 'Intelligent Life in the Universe', 1966; Crick & Orgel, 'Directed Panspermia', Icarus, 1973)": 1,
+        "The Published Academic Record": 1,
+        "The Scientific & Philosophical Literature on Panspermia and Existential Risk": 1,
+        "Academic Discourse & The Precautionary Principle": 1,
+        "Scientific & Technological Consensus": 1,
+        "The published text of *Last and First Men* & its documented publication history": 1,
+        "The Academic and Historical Record": 1,
+        "The 2008 documentary film 'Expelled: No Intelligence Allowed'": 1,
+        "Scientific Method & Experimental Verification": 2,
+        "Scientific Method & Experimental Observation": 2,
+        "The Correspondence Principle & Mathematical Physics": 1,
+        "The Scientific Method & Experimental Observation": 2,
+        "Historical Record of Scientific Discovery & Consensus of Physicists": 1,
+        "Historical Record & Scientific Consensus": 1,
+        "Scholarly Consensus in Linguistics, Archaeology, and Archaeogenetics": 1,
+        "The Steppe Hypothesis (supported by the convergence of Linguistic Reconstruction, Archaeology, and Archaeogenetics)": 1,
+        "Peer-Reviewed Archaeogenetic & Linguistic Research": 1,
+        "The Historical Record of Linguistics": 1,
+        "Scholarly Method & Interdisciplinary Consensus": 1,
+        "Academic Consensus in Historical Linguistics": 1,
+        "Scholarly Consensus via the methods of Comparative Linguistics, Archaeology, and Archaeogenetics": 1,
+        "The Comparative Method & Linguistic Consensus": 1,
+        "The Comparative Method of Historical Linguistics & Scholarly Consensus": 1,
+        "The Historical & Textual Record": 1,
+        "Historical Record & Linguistic Scholarship (e.g., the concept of the 'Sanskrit Cosmopolis')": 1,
+        "Linguistic Record & Etymological Analysis": 1,
+        "Historical Linguistics & Philological Consensus": 1,
+        "Historical Linguistics & Archaeological Consensus": 1,
+        "The Comparative Method & Historical Linguistic Consensus": 1,
+        "Linguistic and Indological Scholarly Consensus": 1,
+        "Historical & Literary Record": 1,
+        "The Historical Record of Academic Publications & Scholarly Consensus": 1,
+        "Mathematical Literature & Academic Consensus": 2,
+        "Mathematical Proof & Foundational Texts (e.g., Saunders Mac Lane's 'Categories for the Working Mathematician')": 1,
+        "Academic Consensus & Published Research in Computer Science and Mathematics": 1,
+        "The Axiomatic Framework of Category Theory (e.g., Eilenberg & Mac Lane)": 1,
+        "Axiomatic Framework of Category Theory": 1,
+        "Axioms of Category Theory": 1,
+        "The Axioms of Category Theory": 1,
+        "Standard Mathematical Definitions & Academic Consensus": 1,
+        "Formal Definitions & Axioms of Abstract Algebra": 1,
+        "The Corpus of Mathematical Literature & Academic Consensus": 1,
+        "Academic & Publishing Consensus in Mathematics": 1,
+        "The Standard Model of Particle Physics & Mathematical Group Theory": 1,
+        "Scientific Method & Mathematical Proof": 1,
+        "Foundational Principles of Modern Cryptography & Number Theory": 1,
+        "Historical Record & Academic Consensus in Mathematics": 2,
+        "Scientific Method & Peer-Reviewed Empirical Evidence": 1,
+        "The Scientific Method & Einstein's Field Equations": 1,
+        "The Formalism of General Relativity & Differential Geometry": 1,
+        "The Correspondence Principle & The Mathematical Framework of Physics": 1,
+        "Scientific Method & Observational Evidence": 1,
+        "Scientific Method & Empirical Evidence": 1,
+        "The Scientific Method & Empirical Observation": 1,
+        "Scientific Method & Empirical Observation": 3,
+        "Scientific Method & Biological Consensus": 1,
+        "The Scientific Method & Established Principles of Biochemistry": 1,
+        "Scientific Method & Empirical Observation in Biochemistry": 1,
+        "The Geochemical & Paleontological Record": 1,
+        "Scientific Method & Peer-Reviewed Biological Literature": 1,
+        "Historical Record & Archaeological Consensus": 1,
+        "Archaeological Record & Scholarly Consensus": 1,
+        "Historical Record & Linguistic Analysis": 1,
+        "Archaeological Evidence & Museum Curation": 1,
+        "Archaeological Record & Historical Consensus": 1,
+        "Official Museum Records & Verifiable Public Display": 1,
+        "Archaeological & Art Historical Consensus": 1,
+        "Archaeological Evidence (The Stele of Hammurabi) & Scholarly Consensus": 1,
+        "The Code of Hammurabi (Primary Source Text)": 1,
+        "Historical Record & Legal Historiography": 1,
+        "Academic Consensus & Foundational Literature": 1,
+        "Constructor Theory (Deutsch & Marletto)": 1,
+        "The official MSC2020 database (published by Mathematical Reviews and zbMATH)": 1,
+        "Axiomatic Framework of Category Theory & Its Applications (e.g., Categorical Quantum Mechanics)": 1,
+        "Formalism of Dagger Compact Categories (Abramsky & Coecke)": 1,
+        "Formal Definitions in Category Theory (e.g., Abramsky & Coecke's 'Categorical Quantum Mechanics')": 1,
+        "Axioms of Monoidal Category Theory": 1,
+        "The Qur'an, Hadith, and Historical Scholarship on pre-Islamic Arabian religions.": 1,
+        "The Qur'an and Hadith": 1,
+        "The Qur'an, Hadith, and the Historical Record of Religious Syncretism": 1,
+        "Historical Record & Academic Scholarship on Pre-Islamic Arabia": 1,
+        "The Qur'an": 1,
+        "The Quran": 1,
+        "The Qur'an & Hadith": 1,
+        "The Qur'an, Hadith, and established Tafsir (exegesis) and folkloric traditions.": 3,
+        "The Qur'an, Hadith, and Middle Eastern Folklore": 1,
+        "Demonological Texts, Exorcism Rituals & Paranormal Case Studies": 1,
+        "Official Broadcast Record & Media Documentation": 1,
+        "Official Broadcaster Schedules & Reliable Media Reporting": 2,
+        "Broadcast Schedules & Program Archives": 1,
+        "Broadcast Archives & Historical Media Records": 1,
+        "Historical Broadcasting Records & Media Archives": 1,
+        "Public Record & Media Reporting": 2,
+        "Official Broadcast Schedules & Public Announcements": 1,
+        "Public Record & Industry News Reporting": 1,
+        "Public Corporate Disclosures & Media Industry Reporting": 1,
+        "Historical Record & Diplomatic Archives": 8,
+        "The Principles of Sound Reasoning & The Nyāya Sūtras": 1,
+        "The Comparative Method of Historical Linguistics & Mythology": 1,
+        "The Qur'an, Hadith, and established Tafsir (exegesis) and exorcism practices.": 1,
+        "Principles of Pedagogy & Machine Learning": 1,
+        "Utilitarianism (The Principle of Utility)": 1,
+        "Deontology (Kant's Categorical Imperative)": 1,
+        "Moral Permissibility in Self-Defense Situations": 1,
+        "Functionalist Theory of Mind": 1,
+        "Biological Theory of Personal Identity": 1
+      }
+    },
+    "Historical Record": {
+      "total_citations": 3,
+      "unique_sources": 3,
+      "source_distribution": {
+        "Historiography of Science": 1,
+        "Official Schedules": 1,
+        "News Archives": 1
+      }
+    },
+    "The Scientific Method": {
+      "total_citations": 4,
+      "unique_sources": 4,
+      "source_distribution": {
+        "Principle of Falsifiability": 1,
+        "The Principle of Consilience of Evidence": 1,
+        "The General Theory of Relativity": 1,
+        "The Purple Earth Hypothesis": 1
+      }
+    },
+    "Principles of Quantum Mechanics": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Experimental Evidence": 1
+      }
+    },
+    "Foundational Mathematics": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Eilenberg & Mac Lane's 'General Theory of Natural Equivalences'": 1
+      }
+    },
+    "Academic Consensus in Mathematics": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Foundational Texts (e.g., Mac Lane's 'Categories for the Working Mathematician')": 1
+      }
+    },
+    "The Historical Record": {
+      "total_citations": 4,
+      "unique_sources": 4,
+      "source_distribution": {
+        "The Sykes-Picot Agreement (1916)": 1,
+        "Principles of Economic History": 1,
+        "Military Strategy & Historiography": 1,
+        "Political Science": 1
+      }
+    },
+    "The Sykes-Picot Agreement of 1916": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Historical Record": 1
+      }
+    },
+    "The text of Shakespeare's *Hamlet*": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Principles of Political Realism": 1
+      }
+    },
+    "Formal Proof": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Gödel's 'On Formally Undecidable Propositions of Principia Mathematica and Related Systems'": 1
+      }
+    },
+    "Foundational Crisis in Logic": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Münchhausen Trilemma": 1
+      }
+    },
+    "Philosophy of Physics": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Aesthetic Theory": 1
+      }
+    },
+    "Philosophy of Mind": {
+      "total_citations": 3,
+      "unique_sources": 3,
+      "source_distribution": {
+        "Aesthetic Theory": 1,
+        "Causal Exclusion Problem": 1,
+        "David Chalmers": 1
+      }
+    },
+    "Integrated Information Theory": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Global Workspace Theory": 1
+      }
+    },
+    "The Hard Problem of Consciousness": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Phenomenology": 1
+      }
+    },
+    "Evolutionary Aesthetics": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Cross-Cultural Studies": 1
+      }
+    },
+    "Cultural Relativism": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Sociology of Art": 1
+      }
+    },
+    "Rawls' Theory of Justice": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Original Position": 1
+      }
+    },
+    "Social Contract Theory": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Democratic Theory": 1
+      }
+    },
+    "Game Theory": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Nash Equilibrium Theorem": 1
+      }
+    },
+    "Public Economics": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Market Failure Theory": 1
+      }
+    },
+    "Originalist Jurisprudence": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Democratic Theory": 1
+      }
+    },
+    "Living Constitution Theory": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Evolutionary Jurisprudence": 1
+      }
+    },
+    "Argument from Analogy": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Simulation Theory": 1
+      }
+    },
+    "Psychological Continuity Theory": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Locke's Essay Concerning Human Understanding": 1
+      }
+    },
+    "Modal Logic": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Possible Worlds Semantics": 1
+      }
+    },
+    "Logical Analysis": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Causal Theory": 1
+      }
+    },
+    "Principle of Autonomy": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Medical Ethics": 1
+      }
+    },
+    "Intergenerational Justice": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Environmental Ethics": 1
+      }
+    },
+    "AI Alignment Theory": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Existential Risk Research": 1
+      }
+    },
+    "Compatibilist Philosophy": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Harry Frankfurt's Theory": 1
+      }
+    },
+    "Scientific Realism": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "No Miracles Argument": 1
+      }
+    },
+    "Behavioral Economics": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Prospect Theory": 1
+      }
+    },
+    "Wittgenstein's Later Philosophy": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Use Theory of Meaning": 1
+      }
+    },
+    "Cultural Evolution Theory": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Dual Inheritance Theory": 1
+      }
+    },
+    "Moral Intuitionism": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Ethical Rationalism": 1
+      }
+    },
+    "Design Argument": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Anthropic Principle": 1
+      }
+    },
+    "Embodied Cognition Theory": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Conceptual Metaphor Theory": 1
+      }
+    },
+    "Mathematical Platonism": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Indispensability Argument": 1
+      }
+    },
+    "Integrated Information Theory (IIT)": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Giulio Tononi": 1
+      }
+    },
+    "Foundations of Quantum Mechanics": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Philosophy of Physics": 1
+      }
+    },
+    "Evolutionary Psychology": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Adaptationist Program": 1
+      }
+    },
+    "Sartre's Existentialism": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Being and Nothingness": 1
+      }
+    },
+    "Heidegger's Being and Time": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Fundamental Ontology": 1
+      }
+    },
+    "Husserl's Phenomenology": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Logical Investigations": 1
+      }
+    },
+    "Merleau-Ponty's Phenomenology of Perception": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Enactivism": 1
+      }
+    },
+    "Frankfurt School": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Dialectic of Enlightenment": 1
+      }
+    },
+    "Habermas' Theory of Communicative Action": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Discourse Ethics": 1
+      }
+    },
+    "Foucault's Genealogy": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Discipline and Punish": 1
+      }
+    },
+    "Derrida's Deconstruction": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Of Grammatology": 1
+      }
+    },
+    "Feminist Standpoint Theory": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Sandra Harding": 1
+      }
+    },
+    "Postcolonial Critique": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Edward Said's Orientalism": 1
+      }
+    },
+    "Extended Mind Thesis": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Clark and Chalmers": 1
+      }
+    },
+    "Enactivist Cognitive Science": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Varela and Thompson": 1
+      }
+    },
+    "Predictive Processing Theory": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Andy Clark": 1
+      }
+    },
+    "Contemporary Panpsychism": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Philip Goff": 1
+      }
+    },
+    "Eliminative Materialism": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Paul and Patricia Churchland": 1
+      }
+    },
+    "Enhancement Ethics": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Bioethics": 1
+      }
+    },
+    "AI Ethics": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Algorithmic Accountability": 1
+      }
+    },
+    "Environmental Law": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Rights of Nature Movement": 1
+      }
+    },
+    "Robot Ethics": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Machine Consciousness Studies": 1
+      }
+    },
+    "Aristotelian Virtue Ethics": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Moral Education Theory": 1
+      }
+    },
+    "Care Ethics": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Carol Gilligan and Nel Noddings": 1
+      }
+    },
+    "Philosophy of Science": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Mechanistic Explanation Theory": 1
+      }
+    },
+    "Kuhn's Structure of Scientific Revolutions": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Philosophy of Science": 1
+      }
+    },
+    "Social Epistemology": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Helen Longino": 1
+      }
+    },
+    "Computational Creativity": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "AI and the Arts": 1
+      }
+    },
+    "Algorithmic Fairness": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Machine Learning Ethics": 1
+      }
+    },
+    "Biosemiotics": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Jakob von Uexküll and Thomas Sebeok": 1
+      }
+    },
+    "Cognitive Archaeology": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Human Evolution Studies": 1
+      }
+    },
+    "Philosophy of Technology": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Media Theory": 1
+      }
+    },
+    "Digital Ontology": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Virtual Reality Studies": 1
+      }
+    },
+    "Astrobiology Ethics": {
+      "total_citations": 2,
+      "unique_sources": 2,
+      "source_distribution": {
+        "Planetary Protection Protocols": 1,
+        "Comparative Cognition": 1
+      }
+    },
+    "Quantum Cognition": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Cognitive Science": 1
+      }
+    },
+    "Quantum Information Theory": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "It from Bit Hypothesis": 1
+      }
+    },
+    "Narrative Identity Theory": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Alasdair MacIntyre": 1
+      }
+    },
+    "Aesthetic Theory": {
+      "total_citations": 2,
+      "unique_sources": 2,
+      "source_distribution": {
+        "Kant's Critique of Judgment": 1,
+        "Heidegger's Origin of the Work of Art": 1
+      }
+    },
+    "Creativity Studies": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Aesthetic Theory": 1
+      }
+    },
+    "Advaita Vedanta": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Shankara's Philosophy": 1
+      }
+    },
+    "Buddhist Philosophy": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Madhyamaka School": 1
+      }
+    },
+    "Daoist Philosophy": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Dao De Jing": 1
+      }
+    },
+    "Islamic Philosophy": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Al-Ghazali and Ibn Sina": 1
+      }
+    },
+    "African Philosophy": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Ubuntu Ethics": 1
+      }
+    },
+    "Indigenous Philosophy": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Traditional Ecological Knowledge": 1
+      }
+    }
+  },
+  "expansion_priorities": [
+    [
+      "Queer Theory",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Disability Studies",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Logic",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Economics",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Feminist Philosophy",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Social Philosophy",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Education",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Race",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Environmental Philosophy",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Gender",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Medical Ethics",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Art",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of History",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Business Ethics",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Music",
+      0,
+      15,
+      "New Area"
+    ]
+  ],
+  "quality_metrics": {
+    "avg_complexity": 4.879032258064516,
+    "source_specificity": 0.38306451612903225,
+    "non_western_ratio": 0.07258064516129033,
+    "avg_text_length": {
+      "pratijna": 92.68145161290323,
+      "hetu": 133.59677419354838,
+      "udaharana": 265.76209677419354,
+      "upanaya": 202.83064516129033,
+      "nigamana": 101.87903225806451
+    }
+  },
+  "rag_metrics": {
+    "domain_diversity_index": 0.7056451612903226,
+    "source_diversity_index": 0.9233870967741935,
+    "highly_specific_sources": 4,
+    "cross_domain_patterns": {
+      "applied_ethics": 16,
+      "tech_philosophy": 10
+    }
+  },
+  "future_ai_readiness": {
+    "phase_1_progress": {
+      "domain_coverage_ratio": 1.1666666666666667,
+      "cultural_diversity_achieved": false,
+      "quality_baseline_met": false
+    },
+    "learning_dynamics_prep": {
+      "domain_entropy": 7.143112857249341,
+      "meta_philosophical_percentage": 15.725806451612904,
+      "paradox_integration_percentage": 4.435483870967742
+    },
+    "source_sophistication": {
+      "primary_source_integration": 0.8064516129032258,
+      "cultural_authenticity_score": 0.8064516129032258
+    },
+    "emergent_intelligence_triggers": {
+      "interdisciplinary_synthesis_count": 3,
+      "cross_cultural_synthesis_potential": 0
+    },
+    "next_phase_recommendations": {
+      "ready_for_phase_2": false,
+      "continue_foundation_building": false,
+      "focus_areas": [
+        "meta_philosophical_content",
+        "paradox_integration",
+        "cross_cultural_synthesis"
+      ]
+    }
+  }
+}
