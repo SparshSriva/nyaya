@@ -121,13 +121,16 @@ def integrate_to_corpus(approved_entries):
     
     print(f"✅ Updated corpus: {len(existing_entries)} + {len(approved_entries)} = {len(total_entries)} entries")
 
-    # Clear remaining entries from staging file
-    remaining_entries = []
+    # Clear remaining entries from staging file by comparing a unique aspect (pratijna)
+    approved_pratijnas = {e['pratijna'] for e in approved_entries if 'pratijna' in e}
+
+    all_staging_entries = []
     with open(STAGING_FILE, 'r', encoding='utf-8') as f:
         for line in f:
-            entry = json.loads(line)
-            if entry not in approved_entries:
-                remaining_entries.append(entry)
+            if line.strip():
+                all_staging_entries.append(json.loads(line))
+
+    remaining_entries = [e for e in all_staging_entries if e.get('pratijna') not in approved_pratijnas]
 
     with open(STAGING_FILE, 'w', encoding='utf-8') as f:
         for entry in remaining_entries:
