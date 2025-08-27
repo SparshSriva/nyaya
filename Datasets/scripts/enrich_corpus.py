@@ -57,24 +57,32 @@ def find_best_dewey_code(domain_string, dewey_data):
 
     return best_match["code"]
 
-
 def load_dewey_data(filepath="Datasets/dewey_decimal_data.json"):
     with open(filepath, 'r') as f:
         return json.load(f)
 
-def enrich_corpus(corpus_filepath="nyaya_corpus_clean.jsonl", dewey_data=None, output_filepath="nyaya_corpus_enriched.jsonl"):
+def enrich_entries(entries, dewey_data):
+    enriched_entries = []
+    for entry in entries:
+        domain = entry.get("domain", "")
+        dewey_code = find_best_dewey_code(domain, dewey_data)
+        entry["dewey_code"] = dewey_code
+        enriched_entries.append(entry)
+    return enriched_entries
+
+def enrich_corpus_file(corpus_filepath="nyaya_corpus_clean.jsonl", dewey_data=None, output_filepath="nyaya_corpus_enriched.jsonl"):
     if dewey_data is None:
         dewey_data = load_dewey_data()
 
-    with open(corpus_filepath, 'r') as f_in, open(output_filepath, 'w') as f_out:
-        for line in f_in:
-            entry = json.loads(line)
-            domain = entry.get("domain", "")
-            dewey_code = find_best_dewey_code(domain, dewey_data)
-            entry["dewey_code"] = dewey_code
+    with open(corpus_filepath, 'r') as f_in:
+        entries = [json.loads(line) for line in f_in]
+
+    enriched_entries = enrich_entries(entries, dewey_data)
+
+    with open(output_filepath, 'w') as f_out:
+        for entry in enriched_entries:
             f_out.write(json.dumps(entry) + '\n')
 
-
 if __name__ == "__main__":
-    enrich_corpus()
+    enrich_corpus_file()
     print(f"Corpus enrichment complete. Enriched corpus saved to nyaya_corpus_enriched.jsonl")
