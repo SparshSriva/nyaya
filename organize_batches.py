@@ -7,7 +7,7 @@ Organizes unbatched entries into logical groups for processing.
 import json
 from datetime import datetime
 from collections import defaultdict
-from typing import Dict, List
+from typing import List
 
 def generate_batch_id(domain_category: str) -> str:
     """Generate a batch ID based on domain category."""
