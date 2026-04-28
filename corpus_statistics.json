@@ -800,8 +800,8 @@
   },
   "authority_distribution": {
     "General": {
-      "total_citations": 259,
-      "unique_sources": 190,
+      "total_citations": 201,
+      "unique_sources": 155,
       "source_distribution": {
         "The Scientific Method and the Historical Record": 1,
         "Aristotelian Natural Philosophy": 1,
@@ -915,11 +915,11 @@
         "The Qur'an": 1,
         "The Quran": 1,
         "The Qur'an & Hadith": 1,
-        "The Qur'an, Hadith, and established Tafsir (exegesis) and folkloric traditions.": 3,
+        "The Qur'an, Hadith, and established Tafsir (exegesis) and folkloric traditions.": 7,
         "The Qur'an, Hadith, and Middle Eastern Folklore": 1,
         "Demonological Texts, Exorcism Rituals & Paranormal Case Studies": 1,
         "Official Broadcast Record & Media Documentation": 1,
-        "Official Broadcaster Schedules & Reliable Media Reporting": 2,
+        "Official Broadcaster Schedules & Reliable Media Reporting": 4,
         "Broadcast Schedules & Program Archives": 1,
         "Broadcast Archives & Historical Media Records": 1,
         "Historical Broadcasting Records & Media Archives": 1,
@@ -930,52 +930,13 @@
         "Historical Record & Diplomatic Archives": 8,
         "The Principles of Sound Reasoning & The Nyāya Sūtras": 1,
         "The Comparative Method of Historical Linguistics & Mythology": 1,
-        "The Qur'an, Hadith, and established Tafsir (exegesis) and exorcism practices.": 1,
-        "Principles of Pedagogy & Machine Learning": 1,
-        "Utilitarianism (The Principle of Utility)": 1,
-        "Deontology (Kant's Categorical Imperative)": 1,
-        "Moral Permissibility in Self-Defense Situations": 1,
-        "Functionalist Theory of Mind": 1,
-        "Biological Theory of Personal Identity": 1,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.33, 3.3.139)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 3.4.86-87)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.7)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.59)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 6.3.9)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 3.3.115)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.24, 2.3.28)": 3,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 7.1.14)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.25)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 2.2.8)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.40)": 2,
-        "Pāṇinian Grammar (Vārttika on Aṣṭādhyāyī 1.4.25)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.133)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 2.3.42)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 4.2.59)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 2.1.6)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 3.3.10)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 2.3.19)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 1.3.12, 1.3.72)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 6.1.77)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 2.1.22, 2.2.8)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 4.1.83, 4.1.92)": 2,
-        "Pāṇinian Grammar (Vārttika on Aṣṭādhyāyī 2.3.18)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.7, 1.3.62)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 2.1.56)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 2.2.24)": 3,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 1.3.13, 3.1.67)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 6.1.87)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.32, 2.3.13)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 2.2.29)": 3,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 3.2.102, 6.4.37)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.26)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.49, 2.3.2)": 5,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 8.3.34)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 3.2.126)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 5.3.55)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.105)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 3.4.21)": 2,
-        "Pāṇinian Grammar (Aṣṭādhyāyī 3.3.133)": 2,
+        "The Qur'an, Hadith, and established Tafsir (exegesis) and exorcism practices.": 3,
+        "Principles of Pedagogy & Machine Learning": 3,
+        "Utilitarianism (The Principle of Utility)": 3,
+        "Deontology (Kant's Categorical Imperative)": 3,
+        "Moral Permissibility in Self-Defense Situations": 3,
+        "Functionalist Theory of Mind": 3,
+        "Biological Theory of Personal Identity": 3,
         "Historical Record & Literary Scholarly Consensus": 1,
         "Philological Analysis & Comparative Linguistics": 1,
         "Comparative Philosophy & Literary Analysis": 1,
@@ -983,13 +944,17 @@
         "Pāṇinian Grammar (Aṣṭādhyāyī) & The Comparative Method": 4,
         "Pāṇinian Grammar (Aṣṭādhyāyī) & Principles of Sanskrit Stylistics": 1,
         "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.105-108, 3.4.78)": 1,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.49, 2.3.2)": 3,
         "Pāṇinian Grammar (Aṣṭādhyāyī 8.3.34, 8.4.40)": 1,
         "Pāṇinian Grammar (Aṣṭādhyāyī 6.1.113, 6.1.87, 6.1.77)": 1,
         "Pāṇinian Grammar (Aṣṭādhyāyī 2.3.50)": 1,
         "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.42, 2.3.18)": 1,
         "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.45, 2.3.36)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 2.2.29)": 1,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 2.2.24)": 1,
         "Pāṇinian Grammar (Aṣṭādhyāyī 2.1.22)": 1,
         "Pāṇinian Grammar (Aṣṭādhyāyī 1.1.37-41)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.24, 2.3.28)": 1,
         "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.67, 1.3.13)": 1,
         "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.33)": 1,
         "Pāṇinian Grammar (Aṣṭādhyāyī 2.3.47, 2.3.48)": 1
@@ -1036,13 +1001,13 @@
       }
     },
     "The Historical Record": {
-      "total_citations": 4,
+      "total_citations": 6,
       "unique_sources": 4,
       "source_distribution": {
         "The Sykes-Picot Agreement (1916)": 1,
         "Principles of Economic History": 1,
         "Military Strategy & Historiography": 1,
-        "Political Science": 1
+        "Political Science": 3
       }
     },
     "The Sykes-Picot Agreement of 1916": {
@@ -1053,598 +1018,563 @@
       }
     },
     "The text of Shakespeare's *Hamlet*": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Principles of Political Realism": 1
+        "Principles of Political Realism": 3
       }
     },
     "Formal Proof": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Gödel's 'On Formally Undecidable Propositions of Principia Mathematica and Related Systems'": 1
+        "Gödel's 'On Formally Undecidable Propositions of Principia Mathematica and Related Systems'": 3
       }
     },
     "Foundational Crisis in Logic": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Münchhausen Trilemma": 1
+        "Münchhausen Trilemma": 3
       }
     },
     "Philosophy of Physics": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Aesthetic Theory": 1
+        "Aesthetic Theory": 3
       }
     },
     "Philosophy of Mind": {
-      "total_citations": 3,
+      "total_citations": 9,
       "unique_sources": 3,
       "source_distribution": {
-        "Aesthetic Theory": 1,
-        "Causal Exclusion Problem": 1,
-        "David Chalmers": 1
+        "Aesthetic Theory": 3,
+        "Causal Exclusion Problem": 3,
+        "David Chalmers": 3
       }
     },
     "Integrated Information Theory": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Global Workspace Theory": 1
+        "Global Workspace Theory": 3
       }
     },
     "The Hard Problem of Consciousness": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Phenomenology": 1
+        "Phenomenology": 3
       }
     },
     "Evolutionary Aesthetics": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Cross-Cultural Studies": 1
+        "Cross-Cultural Studies": 3
       }
     },
     "Cultural Relativism": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Sociology of Art": 1
+        "Sociology of Art": 3
       }
     },
     "Rawls' Theory of Justice": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Original Position": 1
+        "Original Position": 3
       }
     },
     "Social Contract Theory": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Democratic Theory": 1
+        "Democratic Theory": 3
       }
     },
     "Game Theory": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Nash Equilibrium Theorem": 1
+        "Nash Equilibrium Theorem": 3
       }
     },
     "Public Economics": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Market Failure Theory": 1
+        "Market Failure Theory": 3
       }
     },
     "Originalist Jurisprudence": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Democratic Theory": 1
+        "Democratic Theory": 3
       }
     },
     "Living Constitution Theory": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Evolutionary Jurisprudence": 1
+        "Evolutionary Jurisprudence": 3
       }
     },
     "Argument from Analogy": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Simulation Theory": 1
+        "Simulation Theory": 3
       }
     },
     "Psychological Continuity Theory": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Locke's Essay Concerning Human Understanding": 1
+        "Locke's Essay Concerning Human Understanding": 3
       }
     },
     "Modal Logic": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Possible Worlds Semantics": 1
+        "Possible Worlds Semantics": 3
       }
     },
     "Logical Analysis": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Causal Theory": 1
+        "Causal Theory": 3
       }
     },
     "Principle of Autonomy": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Medical Ethics": 1
+        "Medical Ethics": 3
       }
     },
     "Intergenerational Justice": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Environmental Ethics": 1
+        "Environmental Ethics": 3
       }
     },
     "AI Alignment Theory": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Existential Risk Research": 1
+        "Existential Risk Research": 3
       }
     },
     "Compatibilist Philosophy": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Harry Frankfurt's Theory": 1
+        "Harry Frankfurt's Theory": 3
       }
     },
     "Scientific Realism": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "No Miracles Argument": 1
+        "No Miracles Argument": 3
       }
     },
     "Behavioral Economics": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Prospect Theory": 1
+        "Prospect Theory": 3
       }
     },
     "Wittgenstein's Later Philosophy": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Use Theory of Meaning": 1
+        "Use Theory of Meaning": 3
       }
     },
     "Cultural Evolution Theory": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Dual Inheritance Theory": 1
+        "Dual Inheritance Theory": 3
       }
     },
     "Moral Intuitionism": {
-      "total_citations": 1,
+      "total_citations": 3,
       "unique_sources": 1,
       "source_distribution": {
-        "Ethical Rationalism": 1
-      }
-    },
-    "Design Argument": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Anthropic Principle": 1
-      }
-    },
-    "Embodied Cognition Theory": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Conceptual Metaphor Theory": 1
-      }
-    },
-    "Mathematical Platonism": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Indispensability Argument": 1
-      }
-    },
-    "Integrated Information Theory (IIT)": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Giulio Tononi": 1
-      }
-    },
-    "Foundations of Quantum Mechanics": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Philosophy of Physics": 1
-      }
-    },
-    "Evolutionary Psychology": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Adaptationist Program": 1
-      }
-    },
-    "Sartre's Existentialism": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Being and Nothingness": 1
-      }
-    },
-    "Heidegger's Being and Time": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Fundamental Ontology": 1
-      }
-    },
-    "Husserl's Phenomenology": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Logical Investigations": 1
-      }
-    },
-    "Merleau-Ponty's Phenomenology of Perception": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Enactivism": 1
-      }
-    },
-    "Frankfurt School": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Dialectic of Enlightenment": 1
-      }
-    },
-    "Habermas' Theory of Communicative Action": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Discourse Ethics": 1
-      }
-    },
-    "Foucault's Genealogy": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Discipline and Punish": 1
-      }
-    },
-    "Derrida's Deconstruction": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Of Grammatology": 1
-      }
-    },
-    "Feminist Standpoint Theory": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Sandra Harding": 1
-      }
-    },
-    "Postcolonial Critique": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Edward Said's Orientalism": 1
-      }
-    },
-    "Extended Mind Thesis": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Clark and Chalmers": 1
-      }
-    },
-    "Enactivist Cognitive Science": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Varela and Thompson": 1
-      }
-    },
-    "Predictive Processing Theory": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Andy Clark": 1
-      }
-    },
-    "Contemporary Panpsychism": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Philip Goff": 1
-      }
-    },
-    "Eliminative Materialism": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Paul and Patricia Churchland": 1
-      }
-    },
-    "Enhancement Ethics": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Bioethics": 1
-      }
-    },
-    "AI Ethics": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Algorithmic Accountability": 1
-      }
-    },
-    "Environmental Law": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Rights of Nature Movement": 1
-      }
-    },
-    "Robot Ethics": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Machine Consciousness Studies": 1
-      }
-    },
-    "Aristotelian Virtue Ethics": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Moral Education Theory": 1
-      }
-    },
-    "Care Ethics": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Carol Gilligan and Nel Noddings": 1
-      }
-    },
-    "Philosophy of Science": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Mechanistic Explanation Theory": 1
-      }
-    },
-    "Kuhn's Structure of Scientific Revolutions": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Philosophy of Science": 1
-      }
-    },
-    "Social Epistemology": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Helen Longino": 1
-      }
-    },
-    "Computational Creativity": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "AI and the Arts": 1
-      }
-    },
-    "Algorithmic Fairness": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Machine Learning Ethics": 1
-      }
-    },
-    "Biosemiotics": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Jakob von Uexküll and Thomas Sebeok": 1
-      }
-    },
-    "Cognitive Archaeology": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Human Evolution Studies": 1
-      }
-    },
-    "Philosophy of Technology": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Media Theory": 1
-      }
-    },
-    "Digital Ontology": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Virtual Reality Studies": 1
-      }
-    },
-    "Astrobiology Ethics": {
-      "total_citations": 2,
-      "unique_sources": 2,
-      "source_distribution": {
-        "Planetary Protection Protocols": 1,
-        "Comparative Cognition": 1
-      }
-    },
-    "Quantum Cognition": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Cognitive Science": 1
-      }
-    },
-    "Quantum Information Theory": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "It from Bit Hypothesis": 1
-      }
-    },
-    "Narrative Identity Theory": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Alasdair MacIntyre": 1
-      }
-    },
-    "Aesthetic Theory": {
-      "total_citations": 2,
-      "unique_sources": 2,
-      "source_distribution": {
-        "Kant's Critique of Judgment": 1,
-        "Heidegger's Origin of the Work of Art": 1
-      }
-    },
-    "Creativity Studies": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Aesthetic Theory": 1
-      }
-    },
-    "Advaita Vedanta": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Shankara's Philosophy": 1
-      }
-    },
-    "Buddhist Philosophy": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Madhyamaka School": 1
-      }
-    },
-    "Daoist Philosophy": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Dao De Jing": 1
-      }
-    },
-    "Islamic Philosophy": {
-      "total_citations": 9,
-      "unique_sources": 2,
-      "source_distribution": {
-        "Al-Ghazali and Ibn Sina": 1,
-        "IEP: Al-Ghazali, https:": 8
-      }
-    },
-    "African Philosophy": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Ubuntu Ethics": 1
-      }
-    },
-    "Indigenous Philosophy": {
-      "total_citations": 1,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Traditional Ecological Knowledge": 1
-      }
-    },
-    "Philosophy of Language": {
-      "total_citations": 10,
-      "unique_sources": 1,
-      "source_distribution": {
-        "SEP: Speech Acts, https:": 10
-      }
-    },
-    "Chinese Philosophy": {
-      "total_citations": 6,
-      "unique_sources": 1,
-      "source_distribution": {
-        "IEP: Confucius, https:": 6
-      }
-    },
-    "Indology": {
-      "total_citations": 2,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Hanuman Chalisa (Wikipedia), https:": 2
-      }
-    },
-    "Reference": {
-      "total_citations": 2,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Wikipedia, https:": 2
-      }
-    },
-    "Sanskrit Grammar": {
-      "total_citations": 25,
-      "unique_sources": 1,
-      "source_distribution": {
-        "Aṣṭādhyāyī (Pāṇini), https:": 25
-      }
-    },
-    "The Four Conditions Model": {
-      "total_citations": 10,
-      "unique_sources": 5,
-      "source_distribution": {
-        "Comparative Sociology": 2,
-        "Political Theory": 2,
-        "Cognitive Science": 2,
-        "Philosophy of Science": 2,
-        "Theory of History": 2
+        "Ethical Rationalism": 3
       }
     },
     "Philosophy of Religion": {
-      "total_citations": 6,
-      "unique_sources": 6,
+      "total_citations": 27,
+      "unique_sources": 14,
       "source_distribution": {
-        "SEP: Religious Experience, https:": 1,
-        "SEP: Problem of Evil, https:": 1,
-        "SEP: Religious Epistemology, https:": 1,
-        "Contemporary: Divine Hiddenness, https:": 1,
-        "Hindu-Buddhist: Karma and Theodicy, https:": 1,
-        "Aquinas: Analogical Predication, https:": 1
+        "SEP: Teleological Arguments, https://plato.stanford.edu/entries/teleological-arguments/ (accessed 2024-08-15)": 5,
+        "SEP: Ontological Arguments, https://plato.stanford.edu/entries/ontological-arguments/ (accessed 2024-08-15)": 3,
+        "SEP: Cosmological Argument, https://plato.stanford.edu/entries/cosmological-argument/ (accessed 2024-08-15)": 2,
+        "SEP: Problem of Evil, https://plato.stanford.edu/entries/evil/ (accessed 2024-08-15)": 4,
+        "SEP: Skeptical Theism, https://plato.stanford.edu/entries/skeptical-theism/ (accessed 2024-08-15)": 1,
+        "SEP: Moral Arguments, https://plato.stanford.edu/entries/moral-arguments/ (accessed 2024-08-15)": 1,
+        "SEP: Pascal's Wager, https://plato.stanford.edu/entries/pascal-wager/ (accessed 2024-08-15)": 2,
+        "SEP: Religious Experience, https://plato.stanford.edu/entries/religious-experience/ (accessed 2024-08-15)": 2,
+        "SEP: Miracles, https://plato.stanford.edu/entries/miracles/ (accessed 2024-08-15)": 1,
+        "SEP: Divine Hiddenness, https://plato.stanford.edu/entries/divine-hiddenness/ (accessed 2024-08-15)": 1,
+        "SEP: Fideism, https://plato.stanford.edu/entries/fideism/ (accessed 2024-08-15)": 1,
+        "SEP: Divine Simplicity, https://plato.stanford.edu/entries/divine-simplicity/ (accessed 2024-08-15)": 1,
+        "SEP: Eternity, https://plato.stanford.edu/entries/eternity/ (accessed 2024-08-15)": 1,
+        "SEP: Theological Voluntarism, https://plato.stanford.edu/entries/voluntarism-theological/ (accessed 2024-08-15)": 2
+      }
+    },
+    "Embodied Cognition Theory": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Conceptual Metaphor Theory": 3
+      }
+    },
+    "Mathematical Platonism": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Indispensability Argument": 3
+      }
+    },
+    "Integrated Information Theory (IIT)": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Giulio Tononi": 3
+      }
+    },
+    "Foundations of Quantum Mechanics": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Philosophy of Physics": 3
+      }
+    },
+    "Evolutionary Psychology": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Adaptationist Program": 3
+      }
+    },
+    "Sartre's Existentialism": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Being and Nothingness": 3
+      }
+    },
+    "Heidegger's Being and Time": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Fundamental Ontology": 3
+      }
+    },
+    "Husserl's Phenomenology": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Logical Investigations": 3
+      }
+    },
+    "Merleau-Ponty's Phenomenology of Perception": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Enactivism": 3
+      }
+    },
+    "Frankfurt School": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Dialectic of Enlightenment": 3
+      }
+    },
+    "Habermas' Theory of Communicative Action": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Discourse Ethics": 3
+      }
+    },
+    "Foucault's Genealogy": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Discipline and Punish": 3
+      }
+    },
+    "Derrida's Deconstruction": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Of Grammatology": 3
+      }
+    },
+    "Feminist Standpoint Theory": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Sandra Harding": 3
+      }
+    },
+    "Postcolonial Critique": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Edward Said's Orientalism": 3
+      }
+    },
+    "Extended Mind Thesis": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Clark and Chalmers": 3
+      }
+    },
+    "Enactivist Cognitive Science": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Varela and Thompson": 3
+      }
+    },
+    "Predictive Processing Theory": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Andy Clark": 3
+      }
+    },
+    "Contemporary Panpsychism": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Philip Goff": 3
+      }
+    },
+    "Eliminative Materialism": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Paul and Patricia Churchland": 3
+      }
+    },
+    "Enhancement Ethics": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Bioethics": 3
+      }
+    },
+    "AI Ethics": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Algorithmic Accountability": 3
+      }
+    },
+    "Environmental Law": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Rights of Nature Movement": 3
+      }
+    },
+    "Robot Ethics": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Machine Consciousness Studies": 3
+      }
+    },
+    "Aristotelian Virtue Ethics": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Moral Education Theory": 3
+      }
+    },
+    "Care Ethics": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Carol Gilligan and Nel Noddings": 3
+      }
+    },
+    "Philosophy of Science": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Mechanistic Explanation Theory": 3
+      }
+    },
+    "Kuhn's Structure of Scientific Revolutions": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Philosophy of Science": 3
+      }
+    },
+    "Social Epistemology": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Helen Longino": 3
+      }
+    },
+    "Computational Creativity": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "AI and the Arts": 3
+      }
+    },
+    "Algorithmic Fairness": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Machine Learning Ethics": 3
+      }
+    },
+    "Biosemiotics": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Jakob von Uexküll and Thomas Sebeok": 3
+      }
+    },
+    "Cognitive Archaeology": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Human Evolution Studies": 3
+      }
+    },
+    "Philosophy of Technology": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Media Theory": 3
+      }
+    },
+    "Digital Ontology": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Virtual Reality Studies": 3
+      }
+    },
+    "Astrobiology Ethics": {
+      "total_citations": 6,
+      "unique_sources": 2,
+      "source_distribution": {
+        "Planetary Protection Protocols": 3,
+        "Comparative Cognition": 3
+      }
+    },
+    "Quantum Cognition": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Cognitive Science": 3
+      }
+    },
+    "Quantum Information Theory": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "It from Bit Hypothesis": 3
+      }
+    },
+    "Narrative Identity Theory": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Alasdair MacIntyre": 3
+      }
+    },
+    "Aesthetic Theory": {
+      "total_citations": 6,
+      "unique_sources": 2,
+      "source_distribution": {
+        "Kant's Critique of Judgment": 3,
+        "Heidegger's Origin of the Work of Art": 3
+      }
+    },
+    "Creativity Studies": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Aesthetic Theory": 3
+      }
+    },
+    "Advaita Vedanta": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Shankara's Philosophy": 3
+      }
+    },
+    "Buddhist Philosophy": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Madhyamaka School": 3
+      }
+    },
+    "Daoist Philosophy": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Dao De Jing": 3
+      }
+    },
+    "Islamic Philosophy": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Al-Ghazali and Ibn Sina": 3
+      }
+    },
+    "African Philosophy": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Ubuntu Ethics": 3
+      }
+    },
+    "Indigenous Philosophy": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Traditional Ecological Knowledge": 3
+      }
+    },
+    "The Four Conditions Model": {
+      "total_citations": 5,
+      "unique_sources": 5,
+      "source_distribution": {
+        "Comparative Sociology": 1,
+        "Political Theory": 1,
+        "Cognitive Science": 1,
+        "Philosophy of Science": 1,
+        "Theory of History": 1
       }
     },
     "The Comparative Method of Historical Linguistics": {
@@ -1749,7 +1679,7 @@
   ],
   "quality_metrics": {
     "avg_complexity": 4.316037735849057,
-    "source_specificity": 0.3891509433962264,
+    "source_specificity": 0.5881147540983607,
     "non_western_ratio": 0.07547169811320754,
     "avg_text_length": {
       "pratijna": 93.6745283018868,
