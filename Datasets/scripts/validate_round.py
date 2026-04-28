@@ -5,7 +5,6 @@ Validate a staging round and emit a JSON summary.
 Example (PowerShell):
 py -3 nyaya\\Datasets\\scripts\\validate_round.py --round staging_round_0001
 """
-from __future__ import annotations
 import argparse, json
 from pathlib import Path
 from typing import Dict, Any, List, Tuple
