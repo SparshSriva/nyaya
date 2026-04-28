@@ -80,20 +80,8 @@ def analyze_staging_data():
         print(f"❌ Failed to analyze staging data: {e}")
         return None
 
-def main():
-    """Main collaborative workflow orchestration."""
-    print("🚀 Starting Collaborative Nyāya Corpus Workflow")
-    print("=" * 50)
-    
-    # Check prerequisites
-    if not check_prerequisites():
-        sys.exit(1)
-    
-    # Analyze current state
-    analysis = analyze_staging_data()
-    if not analysis:
-        sys.exit(1)
-    
+def build_workflow_steps(analysis: dict) -> list:
+    """Build the list of workflow steps based on current analysis."""
     workflow_steps = []
     
     # Step 1: Cultural Classification (if needed)
@@ -116,22 +104,27 @@ def main():
         'description': 'Run complete validation pipeline'
     })
     
-    # Execute workflow steps
-    print(f"\\n🔧 Executing {len(workflow_steps)} workflow steps...")
+    return workflow_steps
+
+def execute_workflow_steps(workflow_steps: list) -> bool:
+    """Execute the given workflow steps sequentially."""
+    print(f"\n🔧 Executing {len(workflow_steps)} workflow steps...")
     
     for i, step in enumerate(workflow_steps, 1):
-        print(f"\\n--- Step {i}/{len(workflow_steps)} ---")
+        print(f"\n--- Step {i}/{len(workflow_steps)} ---")
         success = run_command(step['command'], step['description'])
         if not success:
             print(f"💥 Workflow failed at step {i}")
-            sys.exit(1)
-    
-    # Generate workflow summary
-    print("\\n📋 Generating workflow summary...")
+            return False
+    return True
+
+def generate_workflow_summary(analysis: dict, steps_executed: int):
+    """Generate and save the workflow summary."""
+    print("\n📋 Generating workflow summary...")
     summary = {
         'workflow_date': datetime.now().isoformat(),
         'initial_analysis': analysis,
-        'steps_executed': len(workflow_steps),
+        'steps_executed': steps_executed,
         'status': 'completed',
         'next_actions': [
             'Review validation results',
@@ -143,24 +136,52 @@ def main():
     
     with open('workflow_summary.json', 'w', encoding='utf-8') as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
-    
-    # Final analysis
-    final_analysis = analyze_staging_data()
-    
-    print("\\n🎉 Collaborative Workflow Complete!")
+
+def print_final_status(final_analysis: dict):
+    """Print the final status of the collaborative workflow."""
+    print("\n🎉 Collaborative Workflow Complete!")
     print("=" * 50)
     print(f"📊 Final Status:")
     print(f"   Total entries processed: {final_analysis['total']}")
     print(f"   Remaining unclassified: {final_analysis['unclassified']}")
     print(f"   Remaining unbatched: {final_analysis['unbatched']}")
     
-    print(f"\\n📝 Next Steps:")
+    print(f"\n📝 Next Steps:")
     print(f"   1. Review workflow_summary.json for details")
     print(f"   2. Check pipeline validation results")
     print(f"   3. Use PR_TEMPLATE.md to create pull request")
     print(f"   4. Update analysis notebook with new entries")
     
-    print(f"\\n🤝 Ready for Pull Request Creation!")
+    print(f"\n🤝 Ready for Pull Request Creation!")
+
+def main():
+    """Main collaborative workflow orchestration."""
+    print("🚀 Starting Collaborative Nyāya Corpus Workflow")
+    print("=" * 50)
+
+    # Check prerequisites
+    if not check_prerequisites():
+        sys.exit(1)
+
+    # Analyze current state
+    analysis = analyze_staging_data()
+    if not analysis:
+        sys.exit(1)
+
+    # Build workflow steps
+    workflow_steps = build_workflow_steps(analysis)
+
+    # Execute workflow steps
+    if not execute_workflow_steps(workflow_steps):
+        sys.exit(1)
+
+    # Generate workflow summary
+    generate_workflow_summary(analysis, len(workflow_steps))
+
+    # Final analysis
+    final_analysis = analyze_staging_data()
+    if final_analysis:
+        print_final_status(final_analysis)
 
 if __name__ == "__main__":
     main()
