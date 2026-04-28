@@ -1060,6 +1060,8 @@ print(f"Round: {round_id}\nRequired checks: {required_checks}\nStaging: {staging
 
 
 # In[ ]:
+round_dir = Path(f"Datasets/rounds/{round_id}")
+round_dir.mkdir(parents=True, exist_ok=True)
 
 
 # Validation and approval workflow
@@ -1674,7 +1676,7 @@ def fix_grounding_authority():
     # Re-run validation for the staging round
     return validate_phil_religion_round()
 
-# Fix and re-validate
+# Apply updates and re-validate
 updated_validation = fix_grounding_authority()
 
 
