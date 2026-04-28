@@ -15,11 +15,13 @@ CULTURAL_INDICATORS = {
             'Pāṇini', 'Sanskrit', 'Aṣṭādhyāyī', 'sūtra', 'kāraka', 'samāsa',
             'Islamic', 'Al-Ghazali', 'Sufism', 'Chinese', 'Confucian', 'ren', 'li',
             'Hindu', 'Buddhist', 'Vedic', 'dharma', 'karma', 'moksha',
-            'Taoism', 'Zen', 'Madhyamaka', 'Advaita'
+            'Taoism', 'Zen', 'Madhyamaka', 'Advaita', 'Persian', 'Ferdowsi',
+            'Shahnameh', 'Mani', 'Manichaeism'
         ],
         'authorities': [
             'Pāṇinian Grammar', 'Islamic Philosophy', 'Chinese Philosophy',
-            'Hindu Philosophy', 'Buddhist Philosophy', 'Comparative Method'
+            'Hindu Philosophy', 'Buddhist Philosophy', 'Comparative Method',
+            'Persian Literature'
         ]
     },
     'Western': {
