@@ -9,7 +9,7 @@ Example (PowerShell):
 py -3 nyaya\Datasets\scripts\enrich_round.py --round staging_round_0001 --tag-nonwestern --add-urls
 """
 from __future__ import annotations
-import argparse, json, re
+import argparse, json
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, Any, List
