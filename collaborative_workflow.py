@@ -5,6 +5,7 @@ Orchestrates the entire process from staging to PR-ready state.
 """
 
 import json
+import shlex
 import subprocess
 import sys
 from datetime import datetime
@@ -14,7 +15,9 @@ def run_command(command: str, description: str) -> bool:
     """Run a command and return success status."""
     print(f"🔄 {description}...")
     try:
-        result = subprocess.run(command, shell=True, capture_output=True, text=True)
+        # Split the command into a list of arguments to avoid shell=True
+        cmd_args = shlex.split(command)
+        result = subprocess.run(cmd_args, shell=False, capture_output=True, text=True)
         if result.returncode == 0:
             print(f"✅ {description} completed successfully")
             if result.stdout:
