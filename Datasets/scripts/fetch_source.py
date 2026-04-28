@@ -13,9 +13,9 @@ Notes
 """
 import argparse
 import datetime as dt
-import os
 import re
 import sys
+from dataclasses import dataclass
 from pathlib import Path
 
 import requests
@@ -31,6 +31,15 @@ UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 )
+
+@dataclass
+class NoteData:
+    provider: str
+    slug: str
+    url: str
+    title: str
+    text: str
+
 
 def sanitize_filename(name: str) -> str:
     name = name.lower().strip()
@@ -79,20 +88,20 @@ def extract_text(html: str) -> tuple[str, str]:
     except Exception:
         return title, ""
 
-def write_note(outdir: Path, provider: str, slug: str, url: str, title: str, text: str) -> Path:
+def write_note(outdir: Path, note: NoteData) -> Path:
     date = dt.datetime.utcnow().strftime("%Y%m%d")
-    base = f"{sanitize_filename(slug)}_{sanitize_filename(provider)}_{date}.txt"
+    base = f"{sanitize_filename(note.slug)}_{sanitize_filename(note.provider)}_{date}.txt"
     path = outdir / base
     header = [
-        f"URL: {url}",
-        f"Provider: {provider}",
-        f"Title: {title}",
+        f"URL: {note.url}",
+        f"Provider: {note.provider}",
+        f"Title: {note.title}",
         f"Fetched-At-UTC: {dt.datetime.utcnow().isoformat()}",
         "",
         "--- Extracted text (best-effort) ---",
         "",
     ]
-    content = "\n".join(header) + (text or "[No text extracted]")
+    content = "\n".join(header) + (note.text or "[No text extracted]")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
     return path
@@ -114,7 +123,15 @@ def main():
 
     html = fetch_html(args.url)
     title, text = extract_text(html)
-    note_path = write_note(outdir, args.provider, args.slug, args.url, title, text)
+
+    note_data = NoteData(
+        provider=args.provider,
+        slug=args.slug,
+        url=args.url,
+        title=title,
+        text=text,
+    )
+    note_path = write_note(outdir, note_data)
     print(f"Saved: {note_path}")
 
 if __name__ == "__main__":

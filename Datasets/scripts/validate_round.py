@@ -3,12 +3,11 @@
 Validate a staging round and emit a JSON summary.
 
 Example (PowerShell):
-py -3 nyaya\Datasets\scripts\validate_round.py --round staging_round_0001
+py -3 nyaya\\Datasets\\scripts\\validate_round.py --round staging_round_0001
 """
-from __future__ import annotations
 import argparse, json
 from pathlib import Path
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Tuple
 
 NYAYA_ROOT = Path('nyaya')
 ROUNDS_DIR = NYAYA_ROOT / 'Datasets' / 'rounds'
@@ -40,19 +39,16 @@ def has_specific_source(ga: str) -> bool:
     return ('http://' in s or 'https://' in s) and (' / ' in s or ':' in s)
 
 
-def main():
+def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser()
     ap.add_argument('--round', default='staging_round_0001')
     ap.add_argument('--nonwestern-thresh', type=float, default=0.25)
     ap.add_argument('--specificity-thresh', type=float, default=0.90)
     ap.add_argument('--output', help='Path to write validation_result.json; defaults to round dir')
-    args = ap.parse_args()
+    return ap.parse_args()
 
-    round_dir = ROUNDS_DIR / args.round
-    clean_path = round_dir / f"nyaya_corpus_{args.round}_clean.jsonl"
-    items = read_jsonl(clean_path)
 
-    total = len(items)
+def compute_statistics(items: List[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], int, int, int]:
     missing_list = []
     non_w_count = 0
     spec_count = 0
@@ -73,6 +69,19 @@ def main():
         for k in ('pratijna','hetu','udaharana','upanaya','nigamana'):
             char_sum += len(str(r.get(k,'')).strip())
 
+    return missing_list, non_w_count, spec_count, char_sum
+
+
+def generate_output(
+    args: argparse.Namespace,
+    round_dir: Path,
+    clean_path: Path,
+    total: int,
+    missing_list: List[Dict[str, Any]],
+    non_w_count: int,
+    spec_count: int,
+    char_sum: int
+) -> None:
     schema_ok = len(missing_list) == 0
     non_w_share = (non_w_count / total) if total else 0.0
     spec_share = (spec_count / total) if total else 0.0
@@ -97,6 +106,22 @@ def main():
     out_path = Path(args.output) if args.output else (round_dir / 'validation_result.json')
     out_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8')
     print(json.dumps(result, ensure_ascii=False, indent=2))
+
+
+def main():
+    args = parse_args()
+
+    round_dir = ROUNDS_DIR / args.round
+    clean_path = round_dir / f"nyaya_corpus_{args.round}_clean.jsonl"
+    items = read_jsonl(clean_path)
+
+    total = len(items)
+    missing_list, non_w_count, spec_count, char_sum = compute_statistics(items)
+
+    generate_output(
+        args, round_dir, clean_path, total, missing_list, non_w_count, spec_count, char_sum
+    )
+
 
 if __name__ == '__main__':
     main()
