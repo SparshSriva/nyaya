@@ -118,7 +118,7 @@ def classify_entries():
     if classified_count > 0:
         with open('nyaya_corpus_staging.jsonl', 'w', encoding='utf-8') as f:
             for entry in entries:
-                f.write(json.dumps(entry, ensure_ascii=False) + '\n')
+                f.write(json.dumps(entry, ensure_ascii=False) + '\\n')
     
     # Report results
     print(f"\\n✅ Classification Complete!")

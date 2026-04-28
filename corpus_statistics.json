@@ -1,16 +1,26 @@
 {
 <<<<<<< HEAD
+  "timestamp": "2025-08-15T17:16:15.801511",
+  "corpus_size": 248,
+  "unique_domains": 175,
+  "unique_authorities": 229,
+=======
+<<<<<<< HEAD
   "timestamp": "2025-08-26T22:01:33.743150",
   "corpus_size": 424,
   "unique_domains": 218,
   "unique_authorities": 308,
+>>>>>>> 4a3ef30 (chore: generalize staging pipeline and merge staging batches)
   "cultural_distribution": {
-    "Other": 348,
-    "Contemporary Western": 22,
-    "Islamic Philosophy": 21,
+    "Other": 190,
+    "Contemporary Western": 18,
+    "Islamic Philosophy": 13,
     "Western Philosophy": 22,
     "Indian Philosophy": 1,
     "Buddhist Philosophy": 1,
+<<<<<<< HEAD
+    "Chinese Philosophy": 1,
+=======
     "Chinese Philosophy": 7,
 =======
   "timestamp": "2026-04-28T03:25:58.884531",
@@ -26,21 +36,27 @@
     "Buddhist Philosophy": 1,
     "Chinese Philosophy": 4,
 >>>>>>> 4a5f298 (chore: generalize staging pipeline and merge staging batches)
+>>>>>>> 4a3ef30 (chore: generalize staging pipeline and merge staging batches)
     "African Philosophy": 1,
     "Indigenous Philosophy": 1
   },
   "category_stats": {
     "General": {
 <<<<<<< HEAD
+      "total_entries": 47,
+      "unique_subcategories": 20,
+=======
+<<<<<<< HEAD
       "total_entries": 55,
 =======
       "total_entries": 61,
 >>>>>>> 4a5f298 (chore: generalize staging pipeline and merge staging batches)
       "unique_subcategories": 21,
+>>>>>>> 4a3ef30 (chore: generalize staging pipeline and merge staging batches)
       "subcategories": {
         "History of Science": 7,
         "Physics": 9,
-        "Historical Linguistics": 12,
+        "Historical Linguistics": 10,
         "Historical Linguistics & Genetics": 1,
         "History of Mathematics": 4,
         "Mathematics": 1,
@@ -57,12 +73,16 @@
         "History": 1,
         "Economic History": 1,
         "Military History": 1,
+<<<<<<< HEAD
+        "Political History": 1
+=======
         "Political History": 1,
 <<<<<<< HEAD
         "Philosophy of Religion": 6
 =======
         "Philosophy of Religion": 12
 >>>>>>> 4a5f298 (chore: generalize staging pipeline and merge staging batches)
+>>>>>>> 4a3ef30 (chore: generalize staging pipeline and merge staging batches)
       }
     },
     "Archaic Biology": {
@@ -145,11 +165,10 @@
       }
     },
     "Literary History": {
-      "total_entries": 3,
-      "unique_subcategories": 2,
+      "total_entries": 1,
+      "unique_subcategories": 1,
       "subcategories": {
-        "History of Ideas": 1,
-        "Indology": 2
+        "History of Ideas": 1
       }
     },
     "Media Analysis": {
@@ -179,11 +198,10 @@
       }
     },
     "Historiography": {
-      "total_entries": 3,
-      "unique_subcategories": 2,
+      "total_entries": 1,
+      "unique_subcategories": 1,
       "subcategories": {
-        "Historical Methodology": 1,
-        "The Four Conditions Model": 2
+        "Historical Methodology": 1
       }
     },
     "History": {
@@ -401,12 +419,11 @@
       }
     },
     "Epistemology": {
-      "total_entries": 4,
-      "unique_subcategories": 3,
+      "total_entries": 2,
+      "unique_subcategories": 2,
       "subcategories": {
         "Machine Learning": 1,
-        "Meta-Logic": 1,
-        "The Four Conditions Model": 2
+        "Meta-Logic": 1
       }
     },
     "Ethics": {
@@ -535,6 +552,12 @@
     },
     "Philosophy of Language": {
 <<<<<<< HEAD
+      "total_entries": 1,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Meaning Theory": 1
+=======
+<<<<<<< HEAD
       "total_entries": 11,
       "unique_subcategories": 6,
       "subcategories": {
@@ -555,6 +578,7 @@
         "Indirect Speech Acts": 1,
         "Force Indicators": 1
 >>>>>>> 4a5f298 (chore: generalize staging pipeline and merge staging batches)
+>>>>>>> 4a3ef30 (chore: generalize staging pipeline and merge staging batches)
       }
     },
     "Anthropology": {
@@ -712,19 +736,24 @@
     },
     "Chinese Philosophy": {
 <<<<<<< HEAD
+      "total_entries": 1,
+      "unique_subcategories": 1,
+=======
+<<<<<<< HEAD
       "total_entries": 7,
       "unique_subcategories": 4,
+>>>>>>> 4a3ef30 (chore: generalize staging pipeline and merge staging batches)
       "subcategories": {
-        "Wu Wei": 1,
-        "Ren (Humaneness)": 2,
-        "Li (Ritual Propriety)": 2,
-        "Junzi Leadership": 2
+        "Wu Wei": 1
       }
     },
     "Islamic Philosophy": {
-      "total_entries": 9,
-      "unique_subcategories": 5,
+      "total_entries": 1,
+      "unique_subcategories": 1,
       "subcategories": {
+<<<<<<< HEAD
+        "Divine Unity": 1
+=======
         "Divine Unity": 1,
         "Method of Doubt": 2,
         "Occasionalism": 2,
@@ -750,6 +779,7 @@
         "Eternity of the World": 1,
         "Bodily Resurrection": 1
 >>>>>>> 4a5f298 (chore: generalize staging pipeline and merge staging batches)
+>>>>>>> 4a3ef30 (chore: generalize staging pipeline and merge staging batches)
       }
     },
     "African Philosophy": {
@@ -765,97 +795,14 @@
       "subcategories": {
         "Land-Based Knowledge": 1
       }
-    },
-    "Comparative Philology": {
-      "total_entries": 2,
-      "unique_subcategories": 1,
-      "subcategories": {
-        "Grammar": 2
-      }
-    },
-    "Comparative Philosophy": {
-      "total_entries": 2,
-      "unique_subcategories": 1,
-      "subcategories": {
-        "Epistemology": 2
-      }
-    },
-    "Cultural History": {
-      "total_entries": 2,
-      "unique_subcategories": 1,
-      "subcategories": {
-        "Comparative Literature": 2
-      }
-    },
-    "Philology": {
-      "total_entries": 10,
-      "unique_subcategories": 1,
-      "subcategories": {
-        "Pāṇinian Grammar": 10
-      }
-    },
-    "Sanskrit Syntax": {
-      "total_entries": 68,
-      "unique_subcategories": 9,
-      "subcategories": {
-        "Pāṇinian Grammar": 4,
-        "Pāṇinian Grammar (Kāraka)": 30,
-        "Pāṇinian Grammar (Samāsa)": 20,
-        "Pāṇinian Grammar (Avyaya)": 4,
-        "Pāṇinian Grammar (Voice)": 2,
-        "Pāṇinian Grammar (Tense)": 2,
-        "Pāṇinian Grammar (Case)": 2,
-        "Pāṇinian Grammar (Upasarga)": 2,
-        "Pāṇinian Grammar (Samānādhikaraṇa)": 2
-      }
-    },
-    "Sanskrit Phonology": {
-      "total_entries": 10,
-      "unique_subcategories": 1,
-      "subcategories": {
-        "Pāṇinian Grammar (Sandhi)": 10
-      }
-    },
-    "Sociological Theory": {
-      "total_entries": 2,
-      "unique_subcategories": 1,
-      "subcategories": {
-        "The Four Conditions Model": 2
-      }
-    },
-    "Political Science": {
-      "total_entries": 2,
-      "unique_subcategories": 1,
-      "subcategories": {
-        "The Four Conditions Model": 2
-      }
-    },
-    "Contemplative Science": {
-      "total_entries": 2,
-      "unique_subcategories": 1,
-      "subcategories": {
-        "The Four Conditions Model": 2
-      }
-    },
-    "Sanskrit Morphology": {
-      "total_entries": 38,
-      "unique_subcategories": 10,
-      "subcategories": {
-        "Pāṇinian Grammar (Tense)": 4,
-        "Pāṇinian Grammar (Mood)": 2,
-        "Pāṇinian Grammar (Voice)": 10,
-        "Pāṇinian Grammar (Kṛt Pratyaya)": 8,
-        "Pāṇinian Grammar (Sarvanāman)": 2,
-        "Pāṇinian Grammar (Taddhita)": 4,
-        "Pāṇinian Grammar (Participles)": 2,
-        "Pāṇinian Grammar (Comparative Degree)": 2,
-        "Pāṇinian Grammar (Absolutives)": 2,
-        "Pāṇinian Grammar (Kṛdanta – Agent Nouns)": 2
-      }
     }
   },
   "authority_distribution": {
     "General": {
+<<<<<<< HEAD
+      "total_citations": 153,
+      "unique_sources": 134,
+=======
 <<<<<<< HEAD
       "total_citations": 259,
       "unique_sources": 190,
@@ -863,6 +810,7 @@
       "total_citations": 264,
       "unique_sources": 196,
 >>>>>>> 4a5f298 (chore: generalize staging pipeline and merge staging batches)
+>>>>>>> 4a3ef30 (chore: generalize staging pipeline and merge staging batches)
       "source_distribution": {
         "The Scientific Method and the Historical Record": 1,
         "Aristotelian Natural Philosophy": 1,
@@ -997,6 +945,9 @@
         "Deontology (Kant's Categorical Imperative)": 1,
         "Moral Permissibility in Self-Defense Situations": 1,
         "Functionalist Theory of Mind": 1,
+<<<<<<< HEAD
+        "Biological Theory of Personal Identity": 1
+=======
         "Biological Theory of Personal Identity": 1,
         "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.33, 3.3.139)": 2,
         "Pāṇinian Grammar (Aṣṭādhyāyī 3.4.86-87)": 2,
@@ -1064,6 +1015,7 @@
         "Hindu and Buddhist Theodicy - Karmic Justice Principles": 1,
         "Thomas Aquinas - Summa Theologica on Analogical Predication": 1
 >>>>>>> 4a5f298 (chore: generalize staging pipeline and merge staging batches)
+>>>>>>> 4a3ef30 (chore: generalize staging pipeline and merge staging batches)
       }
     },
     "Historical Record": {
@@ -1640,6 +1592,12 @@
     },
     "Islamic Philosophy": {
 <<<<<<< HEAD
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Al-Ghazali and Ibn Sina": 1
+=======
+<<<<<<< HEAD
       "total_citations": 9,
       "unique_sources": 2,
       "source_distribution": {
@@ -1652,6 +1610,7 @@
         "Al-Ghazali and Ibn Sina": 1,
         "IEP: Al-Ghazali, https:": 4
 >>>>>>> 4a5f298 (chore: generalize staging pipeline and merge staging batches)
+>>>>>>> 4a3ef30 (chore: generalize staging pipeline and merge staging batches)
       }
     },
     "African Philosophy": {
@@ -1667,6 +1626,8 @@
       "source_distribution": {
         "Traditional Ecological Knowledge": 1
       }
+<<<<<<< HEAD
+=======
     },
     "Philosophy of Language": {
 <<<<<<< HEAD
@@ -1746,15 +1707,10 @@
       "source_distribution": {
         "Pāṇinian Grammar": 1
       }
+>>>>>>> 4a3ef30 (chore: generalize staging pipeline and merge staging batches)
     }
   },
   "expansion_priorities": [
-    [
-      "Medical Ethics",
-      0,
-      15,
-      "New Area"
-    ],
     [
       "Queer Theory",
       0,
@@ -1762,6 +1718,8 @@
       "New Area"
     ],
     [
+<<<<<<< HEAD
+=======
       "Social Philosophy",
       0,
       15,
@@ -1893,7 +1851,44 @@
       "New Area"
     ],
     [
+>>>>>>> 4a3ef30 (chore: generalize staging pipeline and merge staging batches)
       "Disability Studies",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Logic",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Economics",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Feminist Philosophy",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Social Philosophy",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Education",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Race",
       0,
       15,
       "New Area"
@@ -1903,21 +1898,61 @@
       0,
       15,
       "New Area"
+    ],
+    [
+      "Philosophy of Gender",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Medical Ethics",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Art",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of History",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Business Ethics",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Music",
+      0,
+      15,
+      "New Area"
     ]
   ],
   "quality_metrics": {
-    "avg_complexity": 4.316037735849057,
-    "source_specificity": 0.3891509433962264,
-    "non_western_ratio": 0.07547169811320754,
+    "avg_complexity": 4.879032258064516,
+    "source_specificity": 0.38306451612903225,
+    "non_western_ratio": 0.07258064516129033,
     "avg_text_length": {
-      "pratijna": 93.6745283018868,
-      "hetu": 142.02358490566039,
-      "udaharana": 244.87264150943398,
-      "upanaya": 179.83962264150944,
-      "nigamana": 93.97877358490567
+      "pratijna": 92.68145161290323,
+      "hetu": 133.59677419354838,
+      "udaharana": 265.76209677419354,
+      "upanaya": 202.83064516129033,
+      "nigamana": 101.87903225806451
     }
   },
   "rag_metrics": {
+<<<<<<< HEAD
+    "domain_diversity_index": 0.7056451612903226,
+    "source_diversity_index": 0.9233870967741935,
+=======
     "domain_diversity_index": 0.5141509433962265,
     "source_diversity_index": 0.7264150943396226,
 =======
@@ -1939,6 +1974,7 @@
     "domain_diversity_index": 0.5227817745803357,
     "source_diversity_index": 0.7529976019184652,
 >>>>>>> 4a5f298 (chore: generalize staging pipeline and merge staging batches)
+>>>>>>> 4a3ef30 (chore: generalize staging pipeline and merge staging batches)
     "highly_specific_sources": 4,
     "cross_domain_patterns": {
       "applied_ethics": 16,
@@ -1947,11 +1983,20 @@
   },
   "future_ai_readiness": {
     "phase_1_progress": {
-      "domain_coverage_ratio": 1.4533333333333334,
+      "domain_coverage_ratio": 1.1666666666666667,
       "cultural_diversity_achieved": false,
       "quality_baseline_met": false
     },
     "learning_dynamics_prep": {
+<<<<<<< HEAD
+      "domain_entropy": 7.143112857249341,
+      "meta_philosophical_percentage": 15.725806451612904,
+      "paradox_integration_percentage": 4.435483870967742
+    },
+    "source_sophistication": {
+      "primary_source_integration": 0.8064516129032258,
+      "cultural_authenticity_score": 0.8064516129032258
+=======
 <<<<<<< HEAD
       "domain_entropy": 7.124708513396126,
       "meta_philosophical_percentage": 13.915094339622641,
@@ -1969,6 +2014,7 @@
       "primary_source_integration": 0.4796163069544364,
       "cultural_authenticity_score": 2.158273381294964
 >>>>>>> 4a5f298 (chore: generalize staging pipeline and merge staging batches)
+>>>>>>> 4a3ef30 (chore: generalize staging pipeline and merge staging batches)
     },
     "emergent_intelligence_triggers": {
       "interdisciplinary_synthesis_count": 3,

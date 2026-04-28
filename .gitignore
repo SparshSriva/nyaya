@@ -76,12 +76,6 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-
-# Log files
-*.log
-
-# Backup files
-*.backup_*
 */.ipynb_checkpoints/*
 
 # IPython
