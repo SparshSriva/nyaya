@@ -6,7 +6,6 @@ Process Sanskrit grammar entries through 2-round approval system
 
 import json
 import os
-from pathlib import Path
 from datetime import datetime
 
 # Configuration
