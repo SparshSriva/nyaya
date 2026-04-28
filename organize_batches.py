@@ -39,17 +39,19 @@ def categorize_domain(domain: str) -> str:
     else:
         return 'general'
 
-def organize_batches():
-    """Main batch organization function."""
-    print("📦 Organizing entries into logical batches...")
-    
-    # Load staging data
+def load_entries(filepath: str) -> List[Dict]:
+    """Load entries from a JSONL file."""
     entries = []
-    with open('nyaya_corpus_staging.jsonl', 'r', encoding='utf-8') as f:
-        for line in f:
-            entries.append(json.loads(line))
-    
-    # Group by domain category
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            for line in f:
+                entries.append(json.loads(line))
+    except FileNotFoundError:
+        print(f"⚠️  Warning: Could not find {filepath}")
+    return entries
+
+def group_unbatched_entries(entries: List[Dict]) -> tuple[Dict[str, List[Dict]], int]:
+    """Group unbatched entries by their domain category."""
     domain_groups = defaultdict(list)
     unbatched_count = 0
     
@@ -61,12 +63,11 @@ def organize_batches():
             category = categorize_domain(domain)
             domain_groups[category].append(entry)
             unbatched_count += 1
-    
-    if unbatched_count == 0:
-        print("✨ All entries already have batch IDs!")
-        return
-    
-    # Assign batch IDs
+
+    return domain_groups, unbatched_count
+
+def assign_batches(domain_groups: Dict[str, List[Dict]]) -> Dict[str, int]:
+    """Assign batch IDs and metadata to entries based on category groups."""
     batch_assignments = {}
     for category, category_entries in domain_groups.items():
         batch_id = generate_batch_id(category)
@@ -74,39 +75,61 @@ def organize_batches():
         
         for entry in category_entries:
             entry['batch_id'] = batch_id
-            # Add batch metadata
             entry['batch_metadata'] = {
                 'category': category,
                 'assigned_date': datetime.now().isoformat(),
                 'batch_size': len(category_entries)
             }
-    
-    # Save updated entries
-    with open('nyaya_corpus_staging.jsonl', 'w', encoding='utf-8') as f:
+    return batch_assignments
+
+def save_entries(entries: List[Dict], filepath: str):
+    """Save entries to a JSONL file."""
+    with open(filepath, 'w', encoding='utf-8') as f:
         for entry in entries:
             f.write(json.dumps(entry, ensure_ascii=False) + '\n')
+
+def save_summary(unbatched_count: int, batch_assignments: Dict[str, int], categories: List[str], filepath: str = 'batch_organization_summary.json'):
+    """Save summary of batch organization to a JSON file."""
+    batch_summary = {
+        'organization_date': datetime.now().isoformat(),
+        'total_organized': unbatched_count,
+        'batch_assignments': batch_assignments,
+        'categories_created': categories
+    }
     
-    # Report results
+    with open(filepath, 'w', encoding='utf-8') as f:
+        json.dump(batch_summary, f, indent=2, ensure_ascii=False)
+
+def print_report(unbatched_count: int, batch_assignments: Dict[str, int], filepath: str):
+    """Print a summary report of the batch organization process."""
     print(f"\\n✅ Batch Organization Complete!")
     print(f"📊 Organized {unbatched_count} entries into {len(batch_assignments)} batches:")
     
     for batch_id, count in batch_assignments.items():
         print(f"   📦 {batch_id}: {count} entries")
     
-    print(f"\\n💾 Updated nyaya_corpus_staging.jsonl with batch assignments")
-    
-    # Create batch summary
-    batch_summary = {
-        'organization_date': datetime.now().isoformat(),
-        'total_organized': unbatched_count,
-        'batch_assignments': batch_assignments,
-        'categories_created': list(domain_groups.keys())
-    }
-    
-    with open('batch_organization_summary.json', 'w', encoding='utf-8') as f:
-        json.dump(batch_summary, f, indent=2, ensure_ascii=False)
-    
+    print(f"\\n💾 Updated {filepath} with batch assignments")
     print(f"📋 Created batch_organization_summary.json")
+
+def organize_batches(filepath: str = 'nyaya_corpus_staging.jsonl'):
+    """Main batch organization function."""
+    print("📦 Organizing entries into logical batches...")
+    
+    entries = load_entries(filepath)
+    if not entries:
+        return
+
+    domain_groups, unbatched_count = group_unbatched_entries(entries)
+    
+    if unbatched_count == 0:
+        print("✨ All entries already have batch IDs!")
+        return
+    
+    batch_assignments = assign_batches(domain_groups)
+
+    save_entries(entries, filepath)
+    save_summary(unbatched_count, batch_assignments, list(domain_groups.keys()))
+    print_report(unbatched_count, batch_assignments, filepath)
 
 if __name__ == "__main__":
     organize_batches()
