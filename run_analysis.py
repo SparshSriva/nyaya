@@ -3,7 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from collections import Counter, defaultdict
-import numpy as np
 from datetime import datetime
 import warnings
 from pathlib import Path
