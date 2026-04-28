@@ -107,9 +107,9 @@ def classify_entries():
             
             print(f"📝 Classified: {entry.get('id', 'No ID')[:8]}... -> {predicted_tradition}")
             if len(entry.get('domain', '')) > 50:
-                print(f"   Domain: {entry['domain'][:50]}...")
+                print(f"   Domain: {entry.get('domain', '')[:50]}...")
             else:
-                print(f"   Domain: {entry['domain']}")
+                print(f"   Domain: {entry.get('domain', '')}")
         
         cultural_stats[entry['cultural_tradition']] += 1
     
