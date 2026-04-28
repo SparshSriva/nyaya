@@ -11,8 +11,13 @@ from datetime import datetime
 
 # Configuration
 REQUIRED_CHECKS = 2
+<<<<<<< HEAD
+STAGING_FILE = "nyaya_corpus_staging.jsonl"
+CLEAN_CORPUS = "nyaya_corpus_clean.jsonl"
+=======
 STAGING_FILE = r"nyaya_corpus_staging.jsonl"
 CLEAN_CORPUS = r"nyaya_corpus_clean.jsonl"
+>>>>>>> 4a5f298 (chore: generalize staging pipeline and merge staging batches)
 
 def load_staging_entries():
     """Load entries from staging file"""
@@ -23,43 +28,39 @@ def load_staging_entries():
             if line:
                 try:
                     entry = json.loads(line)
-                    # Only process Sanskrit grammar entries
-                    if entry.get('batch_id') == 'sanskrit_grammar_2024':
-                        entries.append(entry)
+                    entries.append(entry)
                 except json.JSONDecodeError:
                     continue
     return entries
 
-def validate_sanskrit_entry(entry):
-    """Validate Sanskrit grammar entry"""
+def validate_entry(entry):
+    """Validate a generic entry"""
     checks = {}
     
     # Schema validation
     required_fields = ['domain', 'pratijna', 'hetu', 'udaharana', 'upanaya', 'nigamana', 'grounding_authority']
-    checks['schema'] = all(field in entry and entry[field] for field in required_fields)
-    
-    # Sanskrit-specific validation
-    checks['sanskrit_domain'] = 'Sanskrit' in entry.get('domain', '') and 'Pāṇinian Grammar' in entry.get('domain', '')
-    
-    # Grounding authority validation (should reference Pāṇinian Grammar)
-    auth = entry.get('grounding_authority', '')
-    checks['paninian_authority'] = 'Pāṇinian Grammar' in auth and 'Aṣṭādhyāyī' in auth
-    
-    # Content complexity (check for technical terminology)
-    content = f"{entry.get('pratijna', '')} {entry.get('hetu', '')}"
-    sanskrit_terms = ['vibhakti', 'kāraka', 'samāsa', 'pratyaya', 'sandhi', 'lakāra', 'pada']
-    checks['complexity'] = any(term in content for term in sanskrit_terms)
-    
-    # Structure validation (proper syllogism)
-    checks['structure'] = len(entry.get('upanaya', '')) > 20 and len(entry.get('nigamana', '')) > 10
-    
+    # Some entries have a different schema, so we need to handle that.
+    is_syllogism = all(field in entry for field in required_fields)
+    is_other_format = all(field in entry for field in ['domain', 'major_premise', 'minor_premise', 'conclusion'])
+
+    if is_syllogism:
+        checks['schema'] = all(entry[field] for field in required_fields)
+        # Structure validation (proper syllogism)
+        checks['structure'] = len(entry.get('upanaya', '')) > 20 and len(entry.get('nigamana', '')) > 10
+    elif is_other_format:
+        checks['schema'] = all(entry[field] for field in ['domain', 'major_premise', 'minor_premise', 'conclusion'])
+        checks['structure'] = len(entry.get('conclusion', '')) > 10
+    else:
+        checks['schema'] = False
+        checks['structure'] = False
+
     passes = sum(checks.values())
     return passes, checks
 
-def process_sanskrit_entries():
-    """Process Sanskrit grammar entries through staging pipeline"""
+def process_entries():
+    """Process entries through staging pipeline"""
     entries = load_staging_entries()
-    print(f"Found {len(entries)} Sanskrit grammar entries in staging")
+    print(f"Found {len(entries)} entries in staging")
     
     approved_entries = []
     round_results = {}
@@ -68,7 +69,7 @@ def process_sanskrit_entries():
         print(f"\n--- Processing Entry {i+1}: {entry.get('id', 'unknown')} ---")
         print(f"Domain: {entry.get('domain', 'N/A')}")
         
-        passes, checks = validate_sanskrit_entry(entry)
+        passes, checks = validate_entry(entry)
         print(f"Validation: {passes}/{len(checks)} checks passed")
         
         if passes >= REQUIRED_CHECKS:
@@ -124,18 +125,36 @@ def integrate_to_corpus(approved_entries):
             f.write(json.dumps(entry, ensure_ascii=False) + '\n')
     
     print(f"✅ Updated corpus: {len(existing_entries)} + {len(approved_entries)} = {len(total_entries)} entries")
+
+    # Clear remaining entries from staging file by comparing a unique aspect (pratijna)
+    approved_pratijnas = {e['pratijna'] for e in approved_entries if 'pratijna' in e}
+
+    all_staging_entries = []
+    with open(STAGING_FILE, 'r', encoding='utf-8') as f:
+        for line in f:
+            if line.strip():
+                all_staging_entries.append(json.loads(line))
+
+    remaining_entries = [e for e in all_staging_entries if e.get('pratijna') not in approved_pratijnas]
+
+    with open(STAGING_FILE, 'w', encoding='utf-8') as f:
+        for entry in remaining_entries:
+            f.write(json.dumps(entry, ensure_ascii=False) + '\n')
+
+    print(f"✅ Updated staging file with {len(remaining_entries)} remaining entries.")
+
     return len(total_entries)
 
 def main():
     """Main staging pipeline execution"""
-    print("=== SANSKRIT GRAMMAR STAGING PIPELINE ===")
-    print(f"Required validation rounds: {REQUIRED_CHECKS}")
+    print("=== STAGING PIPELINE ===")
+    print(f"Required validation checks: {REQUIRED_CHECKS}")
     print(f"Staging file: {STAGING_FILE}")
     print(f"Target corpus: {CLEAN_CORPUS}")
     
     try:
         # Process entries
-        approved_entries, results = process_sanskrit_entries()
+        approved_entries, results = process_entries()
         
         # Integration
         final_count = integrate_to_corpus(approved_entries)
@@ -152,9 +171,9 @@ def main():
         print(f"Final corpus size: {final_count}")
         
         if total_approved > 0:
-            print(f"\n✅ Successfully integrated {total_approved} Sanskrit grammar entries!")
-            print("🎯 Sanskrit domain representation significantly enhanced")
-            print("📚 Pāṇinian grammatical analysis coverage expanded")
+            print(f"\n✅ Successfully integrated {total_approved} entries!")
+            print("🎯 Corpus domain representation significantly enhanced")
+            print("📚 Corpus coverage expanded")
         
         return {
             'processed': total_processed,
