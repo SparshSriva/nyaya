@@ -223,8 +223,9 @@ if entries:
 
     for authority in authorities:
         if '/' in authority:
-            auth_type = authority.split('/')[0].strip()
-            specific_source = authority.split('/')[1].strip()
+            parts = authority.split('/', 1)
+            auth_type = parts[0].strip()
+            specific_source = parts[1].strip()
             authority_types[auth_type].append(specific_source)
         else:
             authority_types['General'].append(authority)
@@ -1604,38 +1605,73 @@ validation_result = validate_phil_religion_round()
 # Fix specificity issue by updating grounding authority format
 
 def fix_grounding_authority():
-    """Update entries with proper URL format for grounding authority"""
-
-    # Read current entries
-    round_file = "Datasets/rounds/staging_round_phil_religion_2024/nyaya_corpus_staging_round_phil_religion_2024_clean.jsonl"
-
-    with open(round_file, 'r', encoding='utf-8') as f:
-        entries = [json.loads(line) for line in f if line.strip()]
+    """Update entries with proper URL format for grounding authority in both staging and clean corpus"""
 
     # Update grounding authority format
     authority_mapping = {
+        # Staging round sources
         "Stanford Encyclopedia of Philosophy - Religious Experience": "Philosophy of Religion / SEP: Religious Experience, https://plato.stanford.edu/entries/religious-experience/ (accessed 2024-08-15)",
         "Stanford Encyclopedia of Philosophy - Problem of Evil": "Philosophy of Religion / SEP: Problem of Evil, https://plato.stanford.edu/entries/evil/ (accessed 2024-08-15)",
         "Stanford Encyclopedia of Philosophy - Religious Epistemology": "Philosophy of Religion / SEP: Religious Epistemology, https://plato.stanford.edu/entries/religious-epistemology/ (accessed 2024-08-15)",
         "Contemporary Philosophy of Religion - Divine Hiddenness Problem": "Philosophy of Religion / Contemporary: Divine Hiddenness, https://philpapers.org/browse/divine-hiddenness (accessed 2024-08-15)",
         "Hindu and Buddhist Theodicy - Karmic Justice Principles": "Philosophy of Religion / Hindu-Buddhist: Karma and Theodicy, https://iep.utm.edu/karma/ (accessed 2024-08-15)",
-        "Thomas Aquinas - Summa Theologica on Analogical Predication": "Philosophy of Religion / Aquinas: Analogical Predication, https://www.newadvent.org/summa/1013.htm (accessed 2024-08-15)"
+        "Thomas Aquinas - Summa Theologica on Analogical Predication": "Philosophy of Religion / Aquinas: Analogical Predication, https://www.newadvent.org/summa/1013.htm (accessed 2024-08-15)",
+
+        # Clean corpus Philosophy of Religion sources
+        "Design Argument / Anthropic Principle": "Philosophy of Religion / SEP: Teleological Arguments, https://plato.stanford.edu/entries/teleological-arguments/ (accessed 2024-08-15)",
+        "Modal Ontological Argument / Alvin Plantinga": "Philosophy of Religion / SEP: Ontological Arguments, https://plato.stanford.edu/entries/ontological-arguments/ (accessed 2024-08-15)",
+        "Gaunilo's 'Lost Island' Objection / Immanuel Kant's Critique": "Philosophy of Religion / SEP: Ontological Arguments, https://plato.stanford.edu/entries/ontological-arguments/ (accessed 2024-08-15)",
+        "Kalam Cosmological Argument / William Lane Craig": "Philosophy of Religion / SEP: Cosmological Argument, https://plato.stanford.edu/entries/cosmological-argument/ (accessed 2024-08-15)",
+        "David Hume / Bertrand Russell / Fallacy of Composition": "Philosophy of Religion / SEP: Cosmological Argument, https://plato.stanford.edu/entries/cosmological-argument/ (accessed 2024-08-15)",
+        "Fine-Tuning Argument / Robin Collins": "Philosophy of Religion / SEP: Teleological Arguments, https://plato.stanford.edu/entries/teleological-arguments/ (accessed 2024-08-15)",
+        "Multiverse Hypothesis / Anthropic Principle": "Philosophy of Religion / SEP: Teleological Arguments, https://plato.stanford.edu/entries/teleological-arguments/ (accessed 2024-08-15)",
+        "Logical Problem of Evil / J.L. Mackie": "Philosophy of Religion / SEP: Problem of Evil, https://plato.stanford.edu/entries/evil/ (accessed 2024-08-15)",
+        "Free Will Defense / Alvin Plantinga": "Philosophy of Religion / SEP: Problem of Evil, https://plato.stanford.edu/entries/evil/ (accessed 2024-08-15)",
+        "Soul-Making Theodicy / John Hick": "Philosophy of Religion / SEP: Problem of Evil, https://plato.stanford.edu/entries/evil/ (accessed 2024-08-15)",
+        "Skeptical Theism / Stephen Wykstra": "Philosophy of Religion / SEP: Skeptical Theism, https://plato.stanford.edu/entries/skeptical-theism/ (accessed 2024-08-15)",
+        "Moral Argument for God's Existence / C.S. Lewis": "Philosophy of Religion / SEP: Moral Arguments, https://plato.stanford.edu/entries/moral-arguments/ (accessed 2024-08-15)",
+        "Pascal's Wager": "Philosophy of Religion / SEP: Pascal's Wager, https://plato.stanford.edu/entries/pascal-wager/ (accessed 2024-08-15)",
+        "Many Gods Objection / Voltaire": "Philosophy of Religion / SEP: Pascal's Wager, https://plato.stanford.edu/entries/pascal-wager/ (accessed 2024-08-15)",
+        "Argument from Religious Experience / Richard Swinburne": "Philosophy of Religion / SEP: Religious Experience, https://plato.stanford.edu/entries/religious-experience/ (accessed 2024-08-15)",
+        "Argument from Conflicting Revelations / David Hume": "Philosophy of Religion / SEP: Religious Experience, https://plato.stanford.edu/entries/religious-experience/ (accessed 2024-08-15)",
+        "David Hume's Critique of Miracles": "Philosophy of Religion / SEP: Miracles, https://plato.stanford.edu/entries/miracles/ (accessed 2024-08-15)",
+        "Argument from Divine Hiddenness / J.L. Schellenberg": "Philosophy of Religion / SEP: Divine Hiddenness, https://plato.stanford.edu/entries/divine-hiddenness/ (accessed 2024-08-15)",
+        "Immanuel Kant's Critique of Pure Reason": "Philosophy of Religion / SEP: Ontological Arguments, https://plato.stanford.edu/entries/ontological-arguments/ (accessed 2024-08-15)",
+        "Problem of Natural Evil / Paul Draper": "Philosophy of Religion / SEP: Problem of Evil, https://plato.stanford.edu/entries/evil/ (accessed 2024-08-15)",
+        "Fideism / Søren Kierkegaard": "Philosophy of Religion / SEP: Fideism, https://plato.stanford.edu/entries/fideism/ (accessed 2024-08-15)",
+        "Doctrine of Divine Simplicity / Thomas Aquinas": "Philosophy of Religion / SEP: Divine Simplicity, https://plato.stanford.edu/entries/divine-simplicity/ (accessed 2024-08-15)",
+        "Critique of Divine Eternity / Nelson Pike": "Philosophy of Religion / SEP: Eternity, https://plato.stanford.edu/entries/eternity/ (accessed 2024-08-15)",
+        "Divine Command Theory / Robert Adams": "Philosophy of Religion / SEP: Theological Voluntarism, https://plato.stanford.edu/entries/voluntarism-theological/ (accessed 2024-08-15)",
+        "Euthyphro Dilemma / Plato": "Philosophy of Religion / SEP: Theological Voluntarism, https://plato.stanford.edu/entries/voluntarism-theological/ (accessed 2024-08-15)"
     }
 
-    # Apply updates
-    for entry in entries:
-        original_auth = entry.get('grounding_authority', '')
-        if original_auth in authority_mapping:
-            entry['grounding_authority'] = authority_mapping[original_auth]
+    files_to_fix = [
+        "Datasets/rounds/staging_round_phil_religion_2024/nyaya_corpus_staging_round_phil_religion_2024_clean.jsonl",
+        "nyaya_corpus_clean.jsonl"
+    ]
 
-    # Write updated entries
-    with open(round_file, 'w', encoding='utf-8') as f:
+    for target_file in files_to_fix:
+        if not os.path.exists(target_file):
+            print(f"File not found, skipping: {target_file}")
+            continue
+
+        with open(target_file, 'r', encoding='utf-8') as f:
+            entries = [json.loads(line) for line in f if line.strip()]
+
+        updated_count = 0
         for entry in entries:
-            f.write(json.dumps(entry, ensure_ascii=False) + '\n')
+            original_auth = entry.get('grounding_authority', '')
+            if original_auth in authority_mapping:
+                entry['grounding_authority'] = authority_mapping[original_auth]
+                updated_count += 1
 
-    print(f"Updated {len(entries)} entries with proper grounding authority format")
+        with open(target_file, 'w', encoding='utf-8') as f:
+            for entry in entries:
+                f.write(json.dumps(entry, ensure_ascii=False) + '\n')
 
-    # Re-run validation
+        print(f"Updated {updated_count} entries in {target_file}")
+
+    # Re-run validation for the staging round
     return validate_phil_religion_round()
 
 # Fix and re-validate
