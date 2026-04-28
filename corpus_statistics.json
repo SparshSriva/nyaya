@@ -1,27 +1,27 @@
 {
-  "timestamp": "2025-08-15T17:16:15.801511",
-  "corpus_size": 248,
-  "unique_domains": 175,
-  "unique_authorities": 229,
+  "timestamp": "2026-04-28T03:25:58.884531",
+  "corpus_size": 417,
+  "unique_domains": 218,
+  "unique_authorities": 314,
   "cultural_distribution": {
-    "Other": 190,
-    "Contemporary Western": 18,
-    "Islamic Philosophy": 13,
+    "Other": 349,
+    "Contemporary Western": 22,
+    "Islamic Philosophy": 16,
     "Western Philosophy": 22,
     "Indian Philosophy": 1,
     "Buddhist Philosophy": 1,
-    "Chinese Philosophy": 1,
+    "Chinese Philosophy": 4,
     "African Philosophy": 1,
     "Indigenous Philosophy": 1
   },
   "category_stats": {
     "General": {
-      "total_entries": 47,
-      "unique_subcategories": 20,
+      "total_entries": 61,
+      "unique_subcategories": 21,
       "subcategories": {
         "History of Science": 7,
         "Physics": 9,
-        "Historical Linguistics": 10,
+        "Historical Linguistics": 12,
         "Historical Linguistics & Genetics": 1,
         "History of Mathematics": 4,
         "Mathematics": 1,
@@ -38,7 +38,8 @@
         "History": 1,
         "Economic History": 1,
         "Military History": 1,
-        "Political History": 1
+        "Political History": 1,
+        "Philosophy of Religion": 12
       }
     },
     "Archaic Biology": {
@@ -121,10 +122,11 @@
       }
     },
     "Literary History": {
-      "total_entries": 1,
-      "unique_subcategories": 1,
+      "total_entries": 3,
+      "unique_subcategories": 2,
       "subcategories": {
-        "History of Ideas": 1
+        "History of Ideas": 1,
+        "Indology": 2
       }
     },
     "Media Analysis": {
@@ -154,10 +156,11 @@
       }
     },
     "Historiography": {
-      "total_entries": 1,
-      "unique_subcategories": 1,
+      "total_entries": 3,
+      "unique_subcategories": 2,
       "subcategories": {
-        "Historical Methodology": 1
+        "Historical Methodology": 1,
+        "The Four Conditions Model": 2
       }
     },
     "History": {
@@ -285,12 +288,12 @@
       }
     },
     "Islamic Theology": {
-      "total_entries": 7,
+      "total_entries": 6,
       "unique_subcategories": 3,
       "subcategories": {
         "Eschatology": 1,
         "Quranic Studies": 1,
-        "Folklore": 5
+        "Folklore": 4
       }
     },
     "Arabian Mythology": {
@@ -375,11 +378,12 @@
       }
     },
     "Epistemology": {
-      "total_entries": 2,
-      "unique_subcategories": 2,
+      "total_entries": 4,
+      "unique_subcategories": 3,
       "subcategories": {
         "Machine Learning": 1,
-        "Meta-Logic": 1
+        "Meta-Logic": 1,
+        "The Four Conditions Model": 2
       }
     },
     "Ethics": {
@@ -507,10 +511,15 @@
       }
     },
     "Philosophy of Language": {
-      "total_entries": 1,
-      "unique_subcategories": 1,
+      "total_entries": 6,
+      "unique_subcategories": 6,
       "subcategories": {
-        "Meaning Theory": 1
+        "Meaning Theory": 1,
+        "Speech Acts": 1,
+        "Felicity Conditions": 1,
+        "Direction of Fit": 1,
+        "Indirect Speech Acts": 1,
+        "Force Indicators": 1
       }
     },
     "Anthropology": {
@@ -667,17 +676,24 @@
       }
     },
     "Chinese Philosophy": {
-      "total_entries": 1,
-      "unique_subcategories": 1,
+      "total_entries": 4,
+      "unique_subcategories": 4,
       "subcategories": {
-        "Wu Wei": 1
+        "Wu Wei": 1,
+        "Ren (Humaneness)": 1,
+        "Li (Ritual Propriety)": 1,
+        "Junzi Leadership": 1
       }
     },
     "Islamic Philosophy": {
-      "total_entries": 1,
-      "unique_subcategories": 1,
+      "total_entries": 5,
+      "unique_subcategories": 5,
       "subcategories": {
-        "Divine Unity": 1
+        "Divine Unity": 1,
+        "Method of Doubt": 1,
+        "Occasionalism": 1,
+        "Eternity of the World": 1,
+        "Bodily Resurrection": 1
       }
     },
     "African Philosophy": {
@@ -693,12 +709,99 @@
       "subcategories": {
         "Land-Based Knowledge": 1
       }
+    },
+    "Comparative Philology": {
+      "total_entries": 2,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Grammar": 2
+      }
+    },
+    "Comparative Philosophy": {
+      "total_entries": 2,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Epistemology": 2
+      }
+    },
+    "Cultural History": {
+      "total_entries": 2,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Comparative Literature": 2
+      }
+    },
+    "Philology": {
+      "total_entries": 10,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Pāṇinian Grammar": 10
+      }
+    },
+    "Sanskrit Syntax": {
+      "total_entries": 68,
+      "unique_subcategories": 9,
+      "subcategories": {
+        "Pāṇinian Grammar": 4,
+        "Pāṇinian Grammar (Kāraka)": 30,
+        "Pāṇinian Grammar (Samāsa)": 20,
+        "Pāṇinian Grammar (Avyaya)": 4,
+        "Pāṇinian Grammar (Voice)": 2,
+        "Pāṇinian Grammar (Tense)": 2,
+        "Pāṇinian Grammar (Case)": 2,
+        "Pāṇinian Grammar (Upasarga)": 2,
+        "Pāṇinian Grammar (Samānādhikaraṇa)": 2
+      }
+    },
+    "Sanskrit Phonology": {
+      "total_entries": 10,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "Pāṇinian Grammar (Sandhi)": 10
+      }
+    },
+    "Sociological Theory": {
+      "total_entries": 2,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "The Four Conditions Model": 2
+      }
+    },
+    "Political Science": {
+      "total_entries": 2,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "The Four Conditions Model": 2
+      }
+    },
+    "Contemplative Science": {
+      "total_entries": 2,
+      "unique_subcategories": 1,
+      "subcategories": {
+        "The Four Conditions Model": 2
+      }
+    },
+    "Sanskrit Morphology": {
+      "total_entries": 38,
+      "unique_subcategories": 10,
+      "subcategories": {
+        "Pāṇinian Grammar (Tense)": 4,
+        "Pāṇinian Grammar (Mood)": 2,
+        "Pāṇinian Grammar (Voice)": 10,
+        "Pāṇinian Grammar (Kṛt Pratyaya)": 8,
+        "Pāṇinian Grammar (Sarvanāman)": 2,
+        "Pāṇinian Grammar (Taddhita)": 4,
+        "Pāṇinian Grammar (Participles)": 2,
+        "Pāṇinian Grammar (Comparative Degree)": 2,
+        "Pāṇinian Grammar (Absolutives)": 2,
+        "Pāṇinian Grammar (Kṛdanta – Agent Nouns)": 2
+      }
     }
   },
   "authority_distribution": {
     "General": {
-      "total_citations": 153,
-      "unique_sources": 134,
+      "total_citations": 264,
+      "unique_sources": 196,
       "source_distribution": {
         "The Scientific Method and the Historical Record": 1,
         "Aristotelian Natural Philosophy": 1,
@@ -812,7 +915,7 @@
         "The Qur'an": 1,
         "The Quran": 1,
         "The Qur'an & Hadith": 1,
-        "The Qur'an, Hadith, and established Tafsir (exegesis) and folkloric traditions.": 3,
+        "The Qur'an, Hadith, and established Tafsir (exegesis) and folkloric traditions.": 2,
         "The Qur'an, Hadith, and Middle Eastern Folklore": 1,
         "Demonological Texts, Exorcism Rituals & Paranormal Case Studies": 1,
         "Official Broadcast Record & Media Documentation": 1,
@@ -833,7 +936,69 @@
         "Deontology (Kant's Categorical Imperative)": 1,
         "Moral Permissibility in Self-Defense Situations": 1,
         "Functionalist Theory of Mind": 1,
-        "Biological Theory of Personal Identity": 1
+        "Biological Theory of Personal Identity": 1,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.33, 3.3.139)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 3.4.86-87)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.7)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.59)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 6.3.9)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 3.3.115)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.24, 2.3.28)": 3,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 7.1.14)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.25)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 2.2.8)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.40)": 2,
+        "Pāṇinian Grammar (Vārttika on Aṣṭādhyāyī 1.4.25)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.133)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 2.3.42)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 4.2.59)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 2.1.6)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 3.3.10)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 2.3.19)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 1.3.12, 1.3.72)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 6.1.77)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 2.1.22, 2.2.8)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 4.1.83, 4.1.92)": 2,
+        "Pāṇinian Grammar (Vārttika on Aṣṭādhyāyī 2.3.18)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.7, 1.3.62)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 2.1.56)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 2.2.24)": 3,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 1.3.13, 3.1.67)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 6.1.87)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.32, 2.3.13)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 2.2.29)": 3,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 3.2.102, 6.4.37)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.26)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.49, 2.3.2)": 5,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 8.3.34)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 3.2.126)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 5.3.55)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.105)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 3.4.21)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 3.3.133)": 2,
+        "Historical Record & Literary Scholarly Consensus": 1,
+        "Philological Analysis & Comparative Linguistics": 1,
+        "Comparative Philosophy & Literary Analysis": 1,
+        "Comparative Literature & Cultural History": 1,
+        "Pāṇinian Grammar (Aṣṭādhyāyī) & The Comparative Method": 4,
+        "Pāṇinian Grammar (Aṣṭādhyāyī) & Principles of Sanskrit Stylistics": 1,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.105-108, 3.4.78)": 1,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 8.3.34, 8.4.40)": 1,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 6.1.113, 6.1.87, 6.1.77)": 1,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 2.3.50)": 1,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.42, 2.3.18)": 1,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 1.4.45, 2.3.36)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 2.1.22)": 1,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 1.1.37-41)": 2,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.67, 1.3.13)": 1,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 3.1.33)": 1,
+        "Pāṇinian Grammar (Aṣṭādhyāyī 2.3.47, 2.3.48)": 1,
+        "Stanford Encyclopedia of Philosophy - Religious Experience": 1,
+        "Stanford Encyclopedia of Philosophy - Problem of Evil": 1,
+        "Stanford Encyclopedia of Philosophy - Religious Epistemology": 1,
+        "Contemporary Philosophy of Religion - Divine Hiddenness Problem": 1,
+        "Hindu and Buddhist Theodicy - Karmic Justice Principles": 1,
+        "Thomas Aquinas - Summa Theologica on Analogical Predication": 1
       }
     },
     "Historical Record": {
@@ -1409,10 +1574,11 @@
       }
     },
     "Islamic Philosophy": {
-      "total_citations": 1,
-      "unique_sources": 1,
+      "total_citations": 5,
+      "unique_sources": 2,
       "source_distribution": {
-        "Al-Ghazali and Ibn Sina": 1
+        "Al-Ghazali and Ibn Sina": 1,
+        "IEP: Al-Ghazali, https:": 4
       }
     },
     "African Philosophy": {
@@ -1428,35 +1594,76 @@
       "source_distribution": {
         "Traditional Ecological Knowledge": 1
       }
+    },
+    "Philosophy of Language": {
+      "total_citations": 5,
+      "unique_sources": 1,
+      "source_distribution": {
+        "SEP: Speech Acts, https:": 5
+      }
+    },
+    "Chinese Philosophy": {
+      "total_citations": 3,
+      "unique_sources": 1,
+      "source_distribution": {
+        "IEP: Confucius, https:": 3
+      }
+    },
+    "Indology": {
+      "total_citations": 2,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Hanuman Chalisa (Wikipedia), https:": 2
+      }
+    },
+    "Reference": {
+      "total_citations": 2,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Wikipedia, https:": 2
+      }
+    },
+    "Sanskrit Grammar": {
+      "total_citations": 25,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Aṣṭādhyāyī (Pāṇini), https:": 25
+      }
+    },
+    "The Four Conditions Model": {
+      "total_citations": 10,
+      "unique_sources": 5,
+      "source_distribution": {
+        "Comparative Sociology": 2,
+        "Political Theory": 2,
+        "Cognitive Science": 2,
+        "Philosophy of Science": 2,
+        "Theory of History": 2
+      }
+    },
+    "Philosophy of Religion": {
+      "total_citations": 6,
+      "unique_sources": 6,
+      "source_distribution": {
+        "SEP: Religious Experience, https:": 1,
+        "SEP: Problem of Evil, https:": 1,
+        "SEP: Religious Epistemology, https:": 1,
+        "Contemporary: Divine Hiddenness, https:": 1,
+        "Hindu-Buddhist: Karma and Theodicy, https:": 1,
+        "Aquinas: Analogical Predication, https:": 1
+      }
+    },
+    "The Comparative Method of Historical Linguistics": {
+      "total_citations": 1,
+      "unique_sources": 1,
+      "source_distribution": {
+        "Pāṇinian Grammar": 1
+      }
     }
   },
   "expansion_priorities": [
     [
       "Queer Theory",
-      0,
-      15,
-      "New Area"
-    ],
-    [
-      "Disability Studies",
-      0,
-      15,
-      "New Area"
-    ],
-    [
-      "Philosophy of Logic",
-      0,
-      15,
-      "New Area"
-    ],
-    [
-      "Philosophy of Economics",
-      0,
-      15,
-      "New Area"
-    ],
-    [
-      "Feminist Philosophy",
       0,
       15,
       "New Area"
@@ -1468,19 +1675,7 @@
       "New Area"
     ],
     [
-      "Philosophy of Education",
-      0,
-      15,
-      "New Area"
-    ],
-    [
-      "Philosophy of Race",
-      0,
-      15,
-      "New Area"
-    ],
-    [
-      "Environmental Philosophy",
+      "Philosophy of History",
       0,
       15,
       "New Area"
@@ -1492,7 +1687,43 @@
       "New Area"
     ],
     [
+      "Philosophy of Music",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Disability Studies",
+      0,
+      15,
+      "New Area"
+    ],
+    [
       "Medical Ethics",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Economics",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Logic",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Race",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Education",
       0,
       15,
       "New Area"
@@ -1504,7 +1735,13 @@
       "New Area"
     ],
     [
-      "Philosophy of History",
+      "Feminist Philosophy",
+      0,
+      15,
+      "New Area"
+    ],
+    [
+      "Philosophy of Law",
       0,
       15,
       "New Area"
@@ -1514,29 +1751,23 @@
       0,
       15,
       "New Area"
-    ],
-    [
-      "Philosophy of Music",
-      0,
-      15,
-      "New Area"
     ]
   ],
   "quality_metrics": {
-    "avg_complexity": 4.879032258064516,
-    "source_specificity": 0.38306451612903225,
-    "non_western_ratio": 0.07258064516129033,
+    "avg_complexity": 4.402877697841727,
+    "source_specificity": 0.3669064748201439,
+    "non_western_ratio": 0.05755395683453238,
     "avg_text_length": {
-      "pratijna": 92.68145161290323,
-      "hetu": 133.59677419354838,
-      "udaharana": 265.76209677419354,
-      "upanaya": 202.83064516129033,
-      "nigamana": 101.87903225806451
+      "pratijna": 96.26858513189448,
+      "hetu": 144.47242206235012,
+      "udaharana": 249.41007194244605,
+      "upanaya": 183.26618705035972,
+      "nigamana": 96.11270983213429
     }
   },
   "rag_metrics": {
-    "domain_diversity_index": 0.7056451612903226,
-    "source_diversity_index": 0.9233870967741935,
+    "domain_diversity_index": 0.5227817745803357,
+    "source_diversity_index": 0.7529976019184652,
     "highly_specific_sources": 4,
     "cross_domain_patterns": {
       "applied_ethics": 16,
@@ -1545,18 +1776,18 @@
   },
   "future_ai_readiness": {
     "phase_1_progress": {
-      "domain_coverage_ratio": 1.1666666666666667,
+      "domain_coverage_ratio": 1.4533333333333334,
       "cultural_diversity_achieved": false,
       "quality_baseline_met": false
     },
     "learning_dynamics_prep": {
-      "domain_entropy": 7.143112857249341,
-      "meta_philosophical_percentage": 15.725806451612904,
-      "paradox_integration_percentage": 4.435483870967742
+      "domain_entropy": 7.074018687150338,
+      "meta_philosophical_percentage": 13.908872901678656,
+      "paradox_integration_percentage": 3.357314148681055
     },
     "source_sophistication": {
-      "primary_source_integration": 0.8064516129032258,
-      "cultural_authenticity_score": 0.8064516129032258
+      "primary_source_integration": 0.4796163069544364,
+      "cultural_authenticity_score": 2.158273381294964
     },
     "emergent_intelligence_triggers": {
       "interdisciplinary_synthesis_count": 3,
