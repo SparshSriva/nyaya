@@ -1,0 +1,287 @@
+Book i
+Sarga(Chapter) j
+For each verse in Sarga j:
+Akshara phonetic breakdown
+Sanskrit Verse
+Sn_word_1
+	Sn root affix breakdown
+	Hindi translation roman script
+	English translation
+...
+Sn_word_n
+	Sn root affix breakdown
+	Hindi translation roman script
+	English translation
+English Verse
+
+Cultural Note:
+Divine sage Narada arrives at the hermitage of Sage Valmiki in order to enlighten him and keep him informed of his duty to author the epic poem Ramayana. In the dialogue between these two sages, Valmiki elicits from Narada about most virtuous person on earth, namely Rama. In this opening chapter, while eulogizing Rama Narada gives an outline of Ramayana, truly highlighting those aspects that are the keynotes in this epic, like virtuosity, generosity, morality, chastity and the like.
+Valmiki Ramayana is said to have been composed basing on each of the twenty-four letters of Gayatri Hymn, and a thousand verses are arranged into one book under the caption of each letter. Though that classification, or dividing verses into thousand chapters is unavailable now, the twenty-four verses identified with the 24 letters of Gayatri hymn (Original Gaitrya Mantra from the Rigveda starting with tat, traditionally it is chanted starting with om bhur bhuva svah), called as Gayatri Ramayana, is available and it is given in the endnote of this page. In tune with the scheme of Gayatri, Ramayana starts the first verse with letter ta an auspicious letter.
+
+Epic Title
+श्रीमद्वाल्मीकिरामायणम् (Śrīmad Vālmīki Rāmāyaṇam)
+
+श्रीमद् (Śrīmad)
+	श्रीमत् (śrīmat)
+	śrī se yukt / pūjya
+	The illustrious / The revered
+वाल्मीकि (Vālmīki)
+	वाल्मीकि (vālmīki)
+	vālmīki
+	Valmiki
+रामायणम् (Rāmāyaṇam)
+	राम (rāma) + अयनम् (ayanam)
+	rām kā mārg / rām kī yātrā
+	The Journey/Path of Rama
+
+Note: The title is a compound word (tatpuruṣa samāsa). While it appears as "The Illustrious Valmiki-Ramayana," the implied meaning is "The Illustrious Ramayana of Valmiki."
+
+Book 1 Title (Kanda)
+बालकाण्डम् (Bālakāṇḍam)
+
+बाल (Bāla)
+	बाल (bāla)
+	bālak / yuvā
+	Youth / Childhood
+काण्डम् (Kāṇḍam)
+	काण्ड (kāṇḍa)
+	khaṇḍ / bhāg
+	Book / Section / Canto
+
+Note: This is the "Book of Youthful Majesties," detailing the childhood and youth of Rama.
+
+Chapter 1 Title (Sarga)
+प्रथमः सर्गः (Prathamaḥ Sargaḥ)
+
+प्रथमः (Prathamaḥ)
+	प्रथम (prathama)
+	pahlā
+	The First
+सर्गः (Sargaḥ)
+	सर्ग (sarga)
+	adhyāy / sṛṣṭi
+	Chapter / Canto / Act of Creation
+
+Note: "Sarga" implies not just a chapter, but a creative outpouring, fitting for the start of an epic.
+
+Verse 1.1.1
+ॐ
+त-पः-स्वा-ध्या-य-नि-र-तं
+त-प-स्वी-वा-ग्वि-दां-व-रम् ।
+ना-र-दं-प-रि-प-प्र-च्छ
+वा-ल्मी-कि-र्मु-नि-पुं-ग-वम् ॥
+
+ॐ 
+तपः स्वाध्यायनिरतं तपस्वी वाग्विदां वरम्। 
+नारदं परिपप्रच्छ वाल्मीकिर्मुनिपुङ्गवम्॥
+तपःस्वाध्यायनिरतं (tapaḥsvādhyāyanirataṃ)
+	तपः (tapaḥ) + स्वाध्याय (svādhyāya) + निरतम् (niratam)
+	tap (austerity) + sv-adhyāy (self-study) + meṃ rat (engrossed in)
+	In austerity + in self-study + deeply engaged.
+तपस्वी (tapasvī)
+	तपस्विन् (tapasvin)
+	tapasvī (one who performs tapas)
+	The ascetic
+वाग्विदां (vāgvidāṃ)
+	वाच् (vāc) + विद् (vid) + आम् (-ām, genitive plural suffix)
+	vāṇī (speech) + ke jñātāoṃ (of the knowers)
+	Of those conversant with speech / Of the eloquent.
+वरम् (varam)
+	वर (vara)
+	śreṣṭh (the best)
+	The best / The foremost.
+नारदं (nāradaṃ)
+	नारद (nārada)
+	nārad ko (to Narada)
+	To Nārada
+परिपप्रच्छ (paripapraccha)
+	परि (pari) + प्रच्छ् (pracch, root for 'to ask')
+	bhali-bhānti pūchā (inquired thoroughly)
+	Inquired / Asked.
+वाल्मीकिः (vālmīkiḥ)
+	वाल्मीकि (vālmīki)
+	vālmīki ne
+	Valmiki did
+मुनिपुङ्गवम् (munipuṅgavam)
+	मुनि (muni) + पुङ्गव (puṅgava)
+	muniyoṃ meṃ śreṣṭh (bull/best among sages)
+	The eminent one among sages.
+
+"The ascetic Vālmīki asked Nārada, the best of sages and foremost of those conversant with words, ever engaged in austerities and Vedic studies."
+
+Verse 2
+को-न्व-स्मि-न्सा-म्प्र-तं-लो-के
+गु-ण-वा-न्क-श्च-वी-र्य-वान् ।
+ध-र्म-ज्ञ-श्च-कृ-त-ज्ञ-श्च
+स-त्य-वा-क्यो-दृ-ढ-व्र-तः ॥
+
+को न्वस्मिन् साम्प्रतं लोке गुणवान् कश्च वीर्यवान्।
+धर्मज्ञश्च कृतज्ञश्च सत्यवाक्यो दृढव्रतः॥
+को न्वस्मिन् (ko nvasmin)
+	कः नु अस्मिन् (kaḥ nu asmin)
+	kaun hai is
+	Who, truly, in this
+साम्प्रतं (sāmprataṃ)
+	साम्प्रतम् (sāmpratam)
+	vartamān meṃ
+	Presently
+लोके (loke)
+	लोक (loka)
+	duniyā meṃ
+	In the world
+गुणवान् (guṇavān)
+	गुणवत् (guṇavat)
+	guṇoṃ vālā
+	Virtuous / Possessed of good qualities
+कश्च (kaśca)
+	कः च (kaḥ ca)
+	aur kaun
+	And who
+वीर्यवान् (vīryavān)
+	वीर्यवत् (vīryavat)
+	parākramī
+	Vigorous / Valiant
+धर्मज्ञश्च (dharmajñaśca)
+	धर्मज्ञः च (dharmajñaḥ ca)
+	aur dharm ko jānane vālā
+	And a knower of Dharma (duty/righteousness)
+कृतज्ञश्च (kṛtajñaśca)
+	कृतज्ञः च (kṛtajñaḥ ca)
+	aur ehsān-mand
+	And grateful / Mindful of deeds done
+सत्यवाक्यः (satyavākyaḥ)
+	सत्य-वाक्य (satya-vākya)
+	sach bolne vālā
+	Truthful in speech
+दृढव्रतः (dṛḍhavrataḥ)
+	दृढ-व्रत (dṛḍha-vrata)
+	apne vrat meṃ dṛḍh
+	Firm in their vows
+
+"Who, at present in this world, is truly virtuous and vigorous, a knower of dharma and grateful, truthful in speech, and firm in his vows?"
+
+Verse 3
+चा-रि-त्रे-ण-च-को-यु-क्तः
+स-र्व-भू-ते-षु-को-हि-तः ।
+वि-द्वा-न्कः-कः-स-म-र्थ-श्च
+क-श्चै-क-प्रि-य-द-र्श-नः ॥
+
+चारित्रेण च को युक्तः सर्वभूतेषु को हितः।
+विद्वान् कः कः समर्थश्च कश्चैकप्रियदर्शनः॥
+चारित्रेण च (cāritreṇa ca)
+	चारित्र (cāritra) + च (ca)
+	charitra se aur
+	And by character
+को युक्तः (ko yuktaḥ)
+	कः युक्तः (kaḥ yuktaḥ)
+	kaun sampann hai
+	Who is endowed
+सर्वभूतेषु (sarvabhūteṣu)
+	सर्व-भूतेषु (sarva-bhūteṣu)
+	sabhī prāṇiyoṃ ke prati
+	Towards all beings
+को हितः (ko hitaḥ)
+	कः हितः (kaḥ hitaḥ)
+	kaun hitaiṣī hai
+	Who is benevolent
+विद्वान् कः (vidvān kaḥ)
+	विद्वस् (vidvas) + कः (kaḥ)
+	vidvān kaun hai
+	Who is learned
+कः समर्थश्च (kaḥ samarthaśca)
+	कः समर्थः च (kaḥ samarthaḥ ca)
+	kaun samarth hai aur
+	Who is capable and
+कश्चैकप्रियदर्शनः (kaścaikapriyadarśanaḥ)
+	कः च एक-प्रिय-दर्शनः (kaḥ ca eka-priya-darśanaḥ)
+	aur kaun hai jo anokhā/priya dikhne vālā hai
+	And who is uniquely pleasant to behold
+
+"Who is endowed with noble character, benevolent to all beings, who is learned and capable, and who is uniquely pleasant to behold?"
+
+Verse 4
+आ-त्म-वा-न्को-जि-त-क्रो-धो
+द्यु-ति-मा-न्कोऽ-न-सू-य-कः ।
+क-स्य-बि-भ्य-ति-दे-वा-श्च
+जा-त-रो-ष-स्य-सं-यु-गे ॥
+
+आत्मवान् को जितक्रोधो द्युतिमान् कोऽनसूयकः।
+कस्य बिभ्यति देवाश्च जातरोषस्य संयुगे॥
+आत्मवान् को (ātmavān ko)
+	आत्मवत् (ātmavat) + कः (kaḥ)
+	ātma-saṃyamī kaun hai
+	Who is self-possessed
+जितक्रोधः (jitakrodhaḥ)
+	जित-क्रोध (jita-krodha)
+	jisne krodh jīt liyā ho
+	One who has conquered anger
+द्युतिमान् (dyutimān)
+	द्युतिमत् (dyutimat)
+	tejasvī
+	Splendorous / Brilliant
+कोऽनसूयकः (ko'nasūyakaḥ)
+	कः अनसूयकः (kaḥ anasūyakaḥ)
+	kaun hai jo īrṣyā-rahit hai
+	Who is free from envy
+कस्य (kasya)
+	कस्य (kasya)
+	kis se
+	Of whom
+बिभ्यति (bibhyati)
+	भी (bhī, root: to fear)
+	ḍarte haiṃ
+	Are afraid
+देवाश्च (devāśca)
+	देवाः च (devāḥ ca)
+	aur devatā bhī
+	And even the gods
+जातरोषस्य (jātaroṣasya)
+	जात-रोषस्य (jāta-roṣasya)
+	krodh utpann hone par
+	When his anger is aroused
+संयुगे (saṃyuge)
+	संयुग (saṃyuga)
+	yuddh meṃ
+	In battle
+
+"Who is self-possessed, has conquered anger, is brilliant, and free from envy? And of whom, when his anger is aroused in battle, are even the gods afraid?"
+
+Verse 5
+ए-त-दि-च्छा-म्य-हं-श्रो-तुम्
+प-रं-कौ-तू-ह-लं-हि-मे ।
+म-ह-र्षे-त्वं-स-म-र्थोऽ-सि
+ज्ञा-तु-मे-वं-वि-धं-न-रम् ॥
+
+एतदिच्छाम्यहं श्रोतुं परं कौतूहलं हि मे।
+महर्षे त्वं समर्थोऽसि ज्ञातुमेवंविधं नरम्॥
+एतद् इच्छामि अहं श्रोतुम् (etad icchāmi ahaṃ śrotum)
+	एतत् (etat) + इष् (iṣ, root: to wish) + अहम् (aham) + श्रु (śru, root: to hear)
+	yah sab maiṃ sunanā chāhtā hūṃ
+	This I wish to hear
+परं कौतूहलं हि मे (paraṃ kautūhalaṃ hi me)
+	परम् (param) + कौतूहलम् (kautūhalam) + हि (hi) + मे (me)
+	atyadhik jijñāsā hai nishchit hī merī
+	For immense, indeed, is my curiosity
+महर्षे (maharṣe)
+	महा-ऋषे (mahā-ṛṣe)
+	he maharṣi
+	O great sage
+त्वं समर्थोऽसि (tvaṃ samartho'si)
+	त्वम् समर्थः असि (tvam samarthaḥ asi)
+	āp samarth haiṃ
+	You are capable
+ज्ञातुम् (jñātum)
+	ज्ञा (jñā, root: to know)
+	jānane meṃ
+	Of knowing
+एवंविधं (evaṃvidhaṃ)
+	एवं-विधम् (evaṃ-vidham)
+	is prakār ke
+	This kind of
+नरम् (naram)
+	नर (nara)
+	manuṣya ko
+	Man
+
+"This I wish to hear, for my curiosity is indeed immense. O great sage, you are capable of knowing such a man."
+

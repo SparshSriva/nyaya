@@ -1,0 +1,36 @@
+book: 1
+events:
+- args:
+    addressee: Narada
+    agent: Valmiki
+  id: e1
+  spans:
+  - 1.1.1
+  type: ASKS
+- args:
+    seeker: Valmiki
+    target: UnknownIdealPerson
+  id: e2
+  spans:
+  - 1.1.2
+  - 1.1.3
+  - 1.1.4
+  - 1.1.5
+  type: QUALITIES_QUERY
+participants:
+- id: Valmiki
+  type: PERSON
+- id: Narada
+  type: PERSON
+relations:
+- dep: e2
+  head: e1
+  label: MOTIVATES
+sarga: 1
+unit_id: 1
+verses:
+- 1.1.1
+- 1.1.2
+- 1.1.3
+- 1.1.4
+- 1.1.5

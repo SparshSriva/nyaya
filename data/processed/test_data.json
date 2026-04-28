@@ -1,0 +1,20 @@
+[
+  {
+    "verse_id": "test.1.1",
+    "sanskrit_verse": "तपः",
+    "english_translation": "austerity",
+    "words": {
+      "word_1": {
+        "sanskrit_word": "तपः",
+        "parts": [
+          {
+            "sanskrit": "तपः",
+            "english": "austerity",
+            "grammar_type": "noun_stem",
+            "lambeq_type": "N @ Case['Nom'] @ Number['Sing'] @ Gender['Neut']"
+          }
+        ]
+      }
+    }
+  }
+]
