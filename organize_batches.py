@@ -5,7 +5,6 @@ Organizes unbatched entries into logical groups for processing.
 """
 
 import json
-import uuid
 from datetime import datetime
 from collections import defaultdict
 from typing import Dict, List
