@@ -5,7 +5,6 @@ Automatically classifies entries based on content analysis and cultural indicato
 """
 
 import json
-import re
 from typing import Dict, List, Set
 
 # Cultural classification indicators
@@ -108,9 +107,9 @@ def classify_entries():
             
             print(f"📝 Classified: {entry.get('id', 'No ID')[:8]}... -> {predicted_tradition}")
             if len(entry.get('domain', '')) > 50:
-                print(f"   Domain: {entry['domain'][:50]}...")
+                print(f"   Domain: {entry.get('domain', '')[:50]}...")
             else:
-                print(f"   Domain: {entry['domain']}")
+                print(f"   Domain: {entry.get('domain', '')}")
         
         cultural_stats[entry['cultural_tradition']] += 1
     
@@ -118,7 +117,7 @@ def classify_entries():
     if classified_count > 0:
         with open('nyaya_corpus_staging.jsonl', 'w', encoding='utf-8') as f:
             for entry in entries:
-                f.write(json.dumps(entry, ensure_ascii=False) + '\\n')
+                f.write(json.dumps(entry, ensure_ascii=False) + '\n')
     
     # Report results
     print(f"\\n✅ Classification Complete!")
