@@ -5,7 +5,7 @@ Automatically classifies entries based on content analysis and cultural indicato
 """
 
 import json
-from typing import Dict
+from typing import Dict, List, Set
 
 # Cultural classification indicators
 CULTURAL_INDICATORS = {
