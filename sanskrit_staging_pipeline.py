@@ -86,6 +86,44 @@ def process_entries():
     
     return approved_entries, round_results
 
+def _load_jsonl(filepath):
+    """Load JSON lines from a file."""
+    entries = []
+    if os.path.exists(filepath):
+        with open(filepath, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    try:
+                        entries.append(json.loads(line))
+                    except json.JSONDecodeError:
+                        continue
+    return entries
+
+def _write_jsonl(filepath, entries):
+    """Write entries to a file as JSON lines."""
+    with open(filepath, 'w', encoding='utf-8') as f:
+        for entry in entries:
+            f.write(json.dumps(entry, ensure_ascii=False) + '\n')
+
+def _create_backup(filepath):
+    """Create a timestamped backup of a file."""
+    if os.path.exists(filepath):
+        backup_path = filepath + f".backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+        os.rename(filepath, backup_path)
+        print(f"Backup created: {backup_path}")
+        return backup_path
+    return None
+
+def _update_staging_file(staging_file, approved_entries):
+    """Remove approved entries from staging file."""
+    approved_pratijnas = {e['pratijna'] for e in approved_entries if 'pratijna' in e}
+    all_staging_entries = _load_jsonl(staging_file)
+    remaining_entries = [e for e in all_staging_entries if e.get('pratijna') not in approved_pratijnas]
+    _write_jsonl(staging_file, remaining_entries)
+    print(f"✅ Updated staging file with {len(remaining_entries)} remaining entries.")
+    return remaining_entries
+
 def integrate_to_corpus(approved_entries):
     """Add approved entries to clean corpus"""
     if not approved_entries:
@@ -93,49 +131,19 @@ def integrate_to_corpus(approved_entries):
         return
     
     # Load existing corpus
-    existing_entries = []
-    if os.path.exists(CLEAN_CORPUS):
-        with open(CLEAN_CORPUS, 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if line:
-                    try:
-                        existing_entries.append(json.loads(line))
-                    except json.JSONDecodeError:
-                        continue
-    
+    existing_entries = _load_jsonl(CLEAN_CORPUS)
     print(f"Current corpus size: {len(existing_entries)} entries")
     
     # Create backup
-    backup_path = CLEAN_CORPUS + f".backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-    if os.path.exists(CLEAN_CORPUS):
-        os.rename(CLEAN_CORPUS, backup_path)
-        print(f"Backup created: {backup_path}")
+    _create_backup(CLEAN_CORPUS)
     
     # Write updated corpus
     total_entries = existing_entries + approved_entries
-    with open(CLEAN_CORPUS, 'w', encoding='utf-8') as f:
-        for entry in total_entries:
-            f.write(json.dumps(entry, ensure_ascii=False) + '\n')
-    
+    _write_jsonl(CLEAN_CORPUS, total_entries)
     print(f"✅ Updated corpus: {len(existing_entries)} + {len(approved_entries)} = {len(total_entries)} entries")
 
-    # Clear remaining entries from staging file by comparing a unique aspect (pratijna)
-    approved_pratijnas = {e['pratijna'] for e in approved_entries if 'pratijna' in e}
-
-    all_staging_entries = []
-    with open(STAGING_FILE, 'r', encoding='utf-8') as f:
-        for line in f:
-            if line.strip():
-                all_staging_entries.append(json.loads(line))
-
-    remaining_entries = [e for e in all_staging_entries if e.get('pratijna') not in approved_pratijnas]
-
-    with open(STAGING_FILE, 'w', encoding='utf-8') as f:
-        for entry in remaining_entries:
-            f.write(json.dumps(entry, ensure_ascii=False) + '\n')
-
-    print(f"✅ Updated staging file with {len(remaining_entries)} remaining entries.")
+    # Clear remaining entries from staging file
+    _update_staging_file(STAGING_FILE, approved_entries)
 
     return len(total_entries)
 
